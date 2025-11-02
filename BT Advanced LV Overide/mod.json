@@ -1,0 +1,20 @@
+{
+    "Name": "BattleTech Advanced LV Overide",
+    "Enabled": true,
+	"Hidden": true,
+	
+	"OptionallyDependsOn": [],
+	"DependsOn": [ "BT Advanced Core", "BT Advanced Clan Gear", "BT Advanced Gear Component",  "BT Advanced Master Overide"],
+	"ConflictsWith": [],
+	
+	"Manifest": [
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeSanctuary/" },
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeClan/" },
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeNotRoyalRoyal/" },
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeBasic/" },
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeSLDF/" },
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeSLDFRoyal/"},
+		{	"Type": "AdvancedJSONMerge", "Path": "BTA_FIX_Merges/"},		
+		{	"Type": "AdvancedJSONMerge", "Path": "BTADefaultMergeWOBStar/" }
+	]
+}

@@ -1,0 +1,101 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "BonusDescriptions":  [
+        "FCS"
+      ],
+    "Flags":  [
+        "default",
+        "not_broken", 
+        "autorepair"
+      ],
+    "Lootable": "lootable_SensorsB_Generic_WOBstar"
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "HISC",
+    "Model": "Standard",
+    "UIName": "HISC FCS",
+    "Id": "Gear_SensorsB_Cameron",
+    "Name": "HISC FCS",
+    "Details": "Default Terran Hegemoney Fire control.  Quite similar to the Comstar system.  A Mech's Fire Control System coordinates and analyzes the vast amount of information brought in by Sensors in order to track units, generate firing solutions and hit targets.",
+    "Icon": "AdvancedTC"
+  },
+  "BonusValueA": "Zoom Vision",
+  "BonusValueB": "Heat Vision",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Heat Vision Effect",
+        "Name": "FCS ScanOptics: Heat Vision",
+        "Details": "heat bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_HEAT_VISION",
+        "operation": "Set",
+        "modValue": "-2_60_220",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Zoom Vision Effect",
+        "Name": "FCS ScanOptics: Zoom Vision",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_ZOOM_VISION",
+        "operation": "Set",
+        "modValue": "-1_0_27",
+        "modType": "System.String"
+      }
+    }  
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

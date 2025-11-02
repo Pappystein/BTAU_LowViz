@@ -1,0 +1,49 @@
+{
+    "Name": "BT Advanced Master Overide",
+    "Enabled": true,
+
+    "Author": "Pappystein, Etc",
+		"DependsOn": ["BT Advanced Gear Component",  "BT Advanced Mech Quirks", "BT Advanced Mechs","BT Advanced Turrets",   
+		"Custom Ammo Categories", "CustomActivatableEquipment", "BT Advanced Clan Gear", "CustomComponents", "CustomUnits",
+		"CustomShops", "DynamicShops", "BT Advanced Starters", "BT Advanced FP Module", "BT Advanced HM Equipment Module", 
+		"Heavy Metal Sanctuary Worlds Units", "BT Advanced HM Unit Module", "BT Advanced UW Unit Module", "BT Advanced Unique Mechs"],
+
+	"CustomResourceTypes": [
+		"MEBonusDescriptions",
+		"MEStatusEffects",
+		"CCCategories",
+		"CCDefaults",
+		"CCTagRestrictions",
+		"CustomSVGIcon"
+	],
+
+
+	"Manifest": [
+		{ "Type": "UpgradeDef", "Path": "Tech/Hero/AdvancedDevices" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Armor" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Hero/EWAR" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Firecontrol" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Sensors" },			
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/AdvancedDevices" },		
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Firecontrol" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Sensors" },	
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/EWAR" },		
+		{ "Type": "UpgradeDef", "Path": "Tech/DefaultItems" },			
+        { "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
+        { "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
+		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition/AmmoBoxes" },	
+		{ "Type": "AmmunitionDef", "Path": "Tech/Ammunition/Ammo" },
+		{ "Type": "WeaponDef", "Path": "Tech/Generic/Weapons" },
+		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
+		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
+		{ "Type": "UpgradeDef",	"Path": "Lootable/Internals" },
+		{ "Type": "UpgradeDef",	"Path": "Lootable/Actuators" },
+		{ "Type": "HeatSinkDef", "Path": "Lootable/Engines" },
+		{ "Type": "AbilityDef",	"Path": "Abilities" },
+		{ "Type": "ChassisDef", "Path": "Mech/ChassisDef" },
+		{ "Type": "MechDef", "Path": "Mech/MechDef" },
+		{ "Type": "MechDef", "Path": "Mech/HeroMechDef" },
+        { "Type": "CCUnitTypes","Path": "UnitTypes", "ShouldMergeJSON": false },
+		{ "Type": "AdvancedJSONMerge", "Path": "Defaults/"}
+	]
+}

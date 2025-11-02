@@ -1,0 +1,400 @@
+{
+	"TargetID": "Defaults_MechEngineer",
+	"Instructions": [
+		{
+			"JSONPath": "$.Settings[?(@.CategoryID== 'LifeSupportB')].UnitTypes",
+			"AutoCreateProperty": true,
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"UnitType": "HalfRoyal",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Quirk_HalfRoyal_BattleMechs",
+							"Type": "Upgrade"
+						}
+					]
+				}
+			]
+		},
+		{
+			"JSONPath": "$.Settings[?(@.CategoryID== 'SensorsB')].UnitTypes",
+			"AutoCreateProperty": true,
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"UnitType": "ClanMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Clan_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RoyalMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SLDFMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "PrimitiveMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Primitive_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "ComGuard",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_WOBStar_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HalfRoyal",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_WOBStar_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SanctuaryMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Sanctuary_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "IndustrialMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Industrial_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RWR",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Rimmer",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "CameronMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Cameron",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HighTech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_HigherTech",
+							"Type": "Upgrade"
+						}
+					]
+				}
+			]
+		},
+		{
+			"JSONPath": "$.Settings[?(@.CategoryID== 'SensorsA')].UnitTypes",
+			"AutoCreateProperty": true,
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"UnitType": "ClanMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Clan_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "IndustrialMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Industrial_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "PrimitiveMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Primitive_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RoyalMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "ComGuard",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_CWOB_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SanctuaryMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Sanctuary_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SLDFMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HalfRoyal",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_CWOB_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "ClanRefit",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Clan_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SanctuaryRefit",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Sanctuary_Export",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RWR",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Rimmer",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "CameronMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Cameron",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HighTech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_ISHigherTech",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "PirateMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Generic_Pirate",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "FissionCore",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Generic_Pirate",
+							"Type": "Upgrade"
+						}
+					]
+				}
+			]
+		},
+		{
+			"JSONPath": "$.Settings[?(@.CategoryID == 'Cockpit')].Defaults[0]",
+			"Action": "ObjectMerge",
+			"Value": {
+				"DefID": "Gear_Cockpit_Generic_Standard_Default"
+			}
+		},
+		{
+			"JSONPath": "$.Settings[?(@.CategoryID== 'Cockpit')].UnitTypes",
+			"AutoCreateProperty": true,
+			"Action": "ArrayConcat",
+			"Value": [
+				{
+					"UnitType": "ClanMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_CLAN_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RoyalMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "SLDFMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_SLDF_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "PrimitiveMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_Primitive_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "ComGuard",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_ComGuard_Standard",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HalfRoyal",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_Ceres_Metals_Reinforced_Default",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "RWR",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_Ceres_Metals_Reinforced_Default",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "CameronMech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_Ceres_Metals_Reinforced_Default",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "HighTech",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Cockpit_Ceres_Metals_Reinforced_Default",
+							"Type": "Upgrade"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+    "TargetType": "ChassisDef",		
+    "TargetIDs": [
+		"chassisdef_atlas_AS7_C",
+		"chassisdef_firefly_FFL-C",
+		"chassisdef_lynx_LNX-C",
+		"chassisdef_marauder_MAD_C",
+		"chassisdef_shadowhawk_SHD_C",
+		"chassisdef_warhammer_WHM_C",
+		"chassisdef_victor_VTR_C",
+		"chassisdef_thunderbolt_TDR_C",
+		"chassisdef_maelstrom_MTR-RB"
+		
+		
+	],
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "ClanRefit"
+        }
+    ]
+}

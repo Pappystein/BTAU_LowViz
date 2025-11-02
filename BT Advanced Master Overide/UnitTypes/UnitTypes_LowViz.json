@@ -1,0 +1,10 @@
+{
+	"Settings" : [
+		{ "Name" : "SanctuaryRefit", "RequiredTags" : [ "SanctuaryRefit" ] },
+		{ "Name" : "ClanRefit", "RequiredTags" : [ "ClanRefit" ] },
+		{ "Name" : "HalfRoyal", "RequiredTags" : [ "HalfRoyal" ] },
+		{ "Name" : "SLDFMech", "RequiredTags" : [ "SLDFMech" ] },
+		{ "Name" : "ComGuard", "RequiredTags" : [ "ComGuard" ] },
+		{ "Name" : "EClan", "RequiredTags" : [ "EClan" ] }
+	]
+}

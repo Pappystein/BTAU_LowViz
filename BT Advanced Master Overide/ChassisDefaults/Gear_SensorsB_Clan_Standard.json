@@ -1,0 +1,104 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "BonusDescriptions":  [
+        "SkillGunnery: 1",
+        "FCS"
+      ],
+    "Flags":  [
+        "default",
+        "not_broken",
+        "autorepair"
+      ],
+    "Lootable":  "lootable_SensorsB_Clan_Standard"
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "CLAN",
+    "Model": "Standard",
+    "UIName": "FCS Standard (C)",
+    "Id": "Gear_SensorsB_Clan_Standard",
+    "Name": "Clan FCS",
+    "Details": "Default Clan FCS. A Mech's Fire Control System coordinates and analyzes the vast amount of information brought in by Sensors in order to track units, generate firing solutions and hit targets.",
+    "Icon": "AdvancedTC"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "StatusEffect_Cockpit_Skill_Gunnery",
+        "Name": "Gunnery Buff",
+        "Details": "Buffs Gunnery Skill",
+        "Icon": "uixSvgIcon_equipment_Rangefinder"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "Gunnery",
+        "operation": "Int_Add",
+        "modValue": "1",
+        "modType": "System.Int32",
+        "targetCollection": "Pilot"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Zoom Vision Effect",
+        "Name": "FCS ScanOptics: Zoom Vision",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_ZOOM_VISION",
+        "operation": "Set",
+        "modValue": "-1_0_21",
+        "modType": "System.String"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "ClanFCS"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

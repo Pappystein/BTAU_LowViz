@@ -1,0 +1,1416 @@
+02:34:35.431 INFO: No errors reading settings file.
+02:34:35.435 Assembly version: 2.0.0
+02:34:35.443 === MOD CONFIG BEGIN ===
+02:34:35.443   DEBUG:False Trace:False
+02:34:35.443   == Probability ==
+02:34:35.443 ProbabilitySigma:3, ProbabilityMu:-1
+02:34:35.443   == Sensors ==
+02:34:35.443 Type Ranges - Mech: 600 Trooper: 120 Vehicle: 450 Turret: 710 UnknownType: 390
+02:34:35.443 MinimumRange: 350  FirstTurnForceFailedChecks: False  MaxECMDetailsPenalty: -11
+02:34:35.443   == Vision ==
+02:34:35.443 Vision Ranges - Bright: 1200 Dim:600 Dark:300
+02:34:35.443 Range Multis - Rain/Snow: x0.8 Light Fog: x0.8 HeavyFog: x0.7
+02:34:35.443 Minimum range: 150 ScanRange: 400
+02:34:35.443   == FogOfWar ==
+02:34:35.443 RedrawFogOfWarOnActivation: False  ShowTerrainThroughFogOfWar: True
+02:34:35.443   == Attacking ==
+02:34:35.443   == Integrations ==
+02:34:35.443   -- IRTweaks --
+02:34:35.443 CombatLogNames: 0 
+02:34:35.443 EnableLogging: False 
+02:34:35.443 === MOD CONFIG END ===
+02:39:36.732 LOADING EFFECT ICONS...
+02:39:36.732   ICON LOADING COMPLETE!
+02:42:33.621  -- PARSING CURRENT MAP
+02:42:33.621    currentMood: Jungle Misty Day Two
+02:43:11.613 Initializing a new random buffer of size:16384
+02:43:11.625  -- PARSING CURRENT MAP
+02:43:11.625    currentMood: EDM Hurricane
+02:43:11.625   Calculating vision range as Math.Ceil(baseVision:1200 * visionMulti:0.7) = visRange:840.
+02:43:11.625 Map vision range = visual:840 / visualScan:400
+02:43:11.632  == shockwaveBlack_alpha loaded? True
+02:43:11.636  == vfxMatPrtl_ECMdistortionStrong loaded? True
+02:43:30.491 === Turn Director is starting first round!
+02:43:30.529  -- CHECKING MOOD SETTINGS
+02:43:30.529    currentMood: EDM Hurricane
+02:43:30.529    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+02:44:13.302   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:44:13.354 Updating last activated actor to: (DEPLOY_ROT IN HELL_9B36B83)
+02:44:23.456   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:44:24.004   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:44:24.009   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:44:24.142   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:44:25.537  -- CHECKING MOOD SETTINGS
+02:44:25.537    currentMood: EDM Hurricane
+02:44:25.537    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+02:44:30.787   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:44:30.826 Updating last activated actor to: (Ebon Jaguar_Garrisoned_B096686C)
+02:44:32.560   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+02:44:32.573 Updating last activated actor to: (Raven_Meatbag_B4EEDEE3)
+02:44:45.095 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (658.0, 107.0, -460.7) rot: (0.0, -0.7, 0.0, 0.8) from position: (658.0, 107.0, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:44:45.241 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 129.8, -509.2) rot: (0.0, -0.6, 0.0, 0.8) from position: (658.0, 107.0, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:44:45.319 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 129.7, -509.2) rot: (0.0, -0.6, 0.0, 0.8) from position: (658.0, 107.0, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:44:45.328   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+02:44:45.331   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+02:45:37.860   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:45:37.870 Updating last activated actor to: (Scimitar (RECCE)_Blaze_F977A1DD)
+02:45:47.708 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (490.0, 114.2, -24.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (616.0, 108.4, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:45:47.728 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (490.0, 114.2, -24.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (616.0, 108.4, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:45:47.736   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:45:47.739   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:49:14.059   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:49:14.072 Updating last activated actor to: (Dervish_Deadeye_1196E4FF)
+02:49:19.155 == Mech: Dervish_Deadeye_1196E4FF updated to position: (644.0, 111.5, -436.5) rot: (0.0, -0.7, 0.0, 0.7) from position: (644.0, 111.5, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:49:19.207 == Mech: Dervish_Deadeye_1196E4FF updated to position: (644.0, 111.5, -436.5) rot: (0.0, -0.7, 0.0, 0.7) from position: (644.0, 111.5, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:49:19.257 == Mech: Dervish_Deadeye_1196E4FF updated to position: (574.0, 100.7, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (644.0, 111.5, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:49:19.263 == Mech: Dervish_Deadeye_1196E4FF updated to position: (574.0, 100.7, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (644.0, 111.5, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:49:19.275 == Mech: Dervish_Deadeye_1196E4FF updated to position: (574.0, 100.7, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (644.0, 111.5, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:49:19.283   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:49:19.287   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:50:07.658   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:50:07.671 Updating last activated actor to: (ExcavatorMech_TaintedLoki_ADF5247F)
+02:50:19.327 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (658.0, 100.0, -363.7) rot: (0.0, -0.7, 0.0, 0.7) from position: (658.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:19.371 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (658.0, 100.0, -363.7) rot: (0.0, -0.7, 0.0, 0.7) from position: (658.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:19.435 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (490.0, 132.3, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (658.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:19.443 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (490.0, 132.3, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (658.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:19.463 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (490.0, 132.2, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (658.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:19.472   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:50:19.477   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:50:37.948   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:50:37.957 Updating last activated actor to: (Marsden III MBT_Phantom_17AF4BEF)
+02:50:47.926   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:50:47.929   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:50:51.423 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:51.475 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (630.0, 115.1, -460.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:51.526 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (476.0, 135.4, -242.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:51.530 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (476.0, 135.4, -242.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:51.544 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (630.0, 115.1, -460.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:50:51.549   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:50:51.551   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:52:19.239   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:52:19.254 Updating last activated actor to: (Balar_bloodydoves_64DB4691)
+02:52:31.507 == Mech: Balar_bloodydoves_64DB4691 updated to position: (644.0, 100.0, -388.0) rot: (0.0, -0.3, 0.0, 0.9) from position: (644.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:31.566 == Mech: Balar_bloodydoves_64DB4691 updated to position: (518.0, 116.3, -315.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (644.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:31.572 == Mech: Balar_bloodydoves_64DB4691 updated to position: (518.0, 116.3, -315.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (644.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:31.585 == Mech: Balar_bloodydoves_64DB4691 updated to position: (518.0, 116.3, -315.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (644.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:31.593   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:52:31.595   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:52:35.086   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:52:35.095 Updating last activated actor to: (Ebon Jaguar_Garrisoned_B096686C)
+02:52:40.236 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (616.0, 100.0, -388.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.286 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (616.0, 100.0, -388.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.332 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (616.0, 100.0, -388.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.397 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (462.0, 125.9, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.408 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (462.0, 125.9, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.423 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (462.0, 125.9, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (616.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:40.435   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:52:40.438   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:52:58.214   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:52:58.223 Updating last activated actor to: (Crabrauder_Harmony_547D0D86)
+02:52:59.500 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 100.0, -436.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (700.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:59.550 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 100.0, -436.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (700.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:59.595 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 99.7, -388.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (700.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:59.603 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 99.7, -388.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (700.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:59.622 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 99.7, -388.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (700.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:52:59.628   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:52:59.631   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:53:18.721   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:53:18.731 Updating last activated actor to: (Marauder_Announcer_68BECF7F)
+02:55:37.879 == Mech: Marauder_Announcer_68BECF7F updated to position: (686.0, 100.0, -412.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (686.0, 100.0, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:37.930 == Mech: Marauder_Announcer_68BECF7F updated to position: (686.0, 100.0, -412.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (686.0, 100.0, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:37.977 == Mech: Marauder_Announcer_68BECF7F updated to position: (574.0, 108.2, -363.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (686.0, 100.0, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:37.984 == Mech: Marauder_Announcer_68BECF7F updated to position: (574.0, 108.2, -363.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (686.0, 100.0, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:37.999 == Mech: Marauder_Announcer_68BECF7F updated to position: (574.0, 108.0, -363.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (686.0, 100.0, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:38.009   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:55:38.012   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+02:55:47.389 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (360.0, 126.7, 498.8) rot: (0.0, 0.5, 0.0, 0.8) from position: (360.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:47.422 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (360.0, 126.7, 498.8) rot: (0.0, 0.5, 0.0, 0.8) from position: (360.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:47.461 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (406.0, 128.0, 509.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (360.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:47.467 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (406.0, 128.0, 509.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (360.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:47.489 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (406.0, 128.0, 509.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (360.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:50.104   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:55:50.114 Updating last activated actor to: (Penetrator_Rhino_C76E80F0)
+02:55:54.838 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (672.0, 100.0, -436.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:54.889 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (672.0, 100.0, -436.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:54.933 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (672.0, 100.0, -436.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:54.993 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (560.0, 103.8, -339.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:54.998 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (560.0, 103.8, -339.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:55.008 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (560.0, 103.8, -339.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (672.0, 100.0, -436.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:55.015   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:55:55.018   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:55:59.904 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (420.0, 123.4, 602.8) rot: (0.0, 1.0, 0.0, -0.3) from position: (420.0, 123.4, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:59.935 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (420.0, 123.4, 602.8) rot: (0.0, 1.0, 0.0, -0.3) from position: (420.0, 123.4, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:59.970 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (350.0, 118.5, 557.7) rot: (0.0, 0.9, 0.0, -0.5) from position: (420.0, 123.4, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:59.979 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (350.0, 118.5, 557.7) rot: (0.0, 0.9, 0.0, -0.5) from position: (420.0, 123.4, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:55:59.999 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (350.0, 118.5, 557.7) rot: (0.0, 0.9, 0.0, -0.5) from position: (420.0, 123.4, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:18.865   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:56:18.896 Updating last activated actor to: (Prince Crab 4HC_BXO_285D8653)
+02:56:34.638 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (672.0, 100.0, -388.0) rot: (0.0, -0.3, 0.0, 0.9) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.697 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (497.6, 127.1, -328.6) rot: (0.0, -0.3, 0.0, 0.9) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.777 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (492.5, 129.2, -321.5) rot: (0.0, -0.3, 0.0, 0.9) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.868 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (492.5, 129.2, -321.5) rot: (0.0, -0.3, 0.0, 1.0) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.944 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 130.3, -315.2) rot: (0.0, 0.0, 0.0, 1.0) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.955 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 130.3, -315.2) rot: (0.0, 0.0, 0.0, 1.0) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.970 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 1.0) from position: (672.0, 100.0, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:56:34.977   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:56:34.983   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:57:48.461 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (612.0, 130.3, 478.0) rot: (0.0, 1.0, 0.0, -0.1) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.493 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (612.0, 130.3, 478.0) rot: (0.0, 1.0, 0.0, -0.1) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.527 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (612.0, 130.3, 478.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.568 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (630.0, 114.3, 363.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.582 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (630.0, 114.3, 363.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.598 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (630.0, 114.3, 363.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (612.0, 130.3, 478.0) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:48.693 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:57:48.709 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:57:48.724 Target Prince Crab 4HC_BXO_285D8653 sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:57:55.111 == Mech: Schrek PPC Carrier (MG)_Sharpshooter_AEA24BEA updated to position: (144.0, 100.0, 415.7) rot: (0.0, 1.0, 0.0, -0.3) from position: (144.0, 100.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:55.143 == Mech: Schrek PPC Carrier (MG)_Sharpshooter_AEA24BEA updated to position: (144.0, 100.0, 415.7) rot: (0.0, 0.9, 0.0, 0.4) from position: (144.0, 100.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:55.181 == Mech: Schrek PPC Carrier (MG)_Sharpshooter_AEA24BEA updated to position: (168.0, 100.0, 388.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (144.0, 100.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:55.185 == Mech: Schrek PPC Carrier (MG)_Sharpshooter_AEA24BEA updated to position: (168.0, 100.0, 388.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (144.0, 100.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:55.202 == Mech: Schrek PPC Carrier (MG)_Sharpshooter_AEA24BEA updated to position: (168.0, 100.0, 388.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (144.0, 100.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:57:55.270 Target Scimitar (RECCE)_Blaze_F977A1DD sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:57:55.273 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:02.058 == Mech: Avatar_Skirmisher_8B997951 updated to position: (408.0, 123.0, 415.7) rot: (0.0, 0.9, 0.0, -0.4) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.096 == Mech: Avatar_Skirmisher_8B997951 updated to position: (335.8, 100.0, 340.6) rot: (0.0, 0.9, 0.0, -0.4) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.138 == Mech: Avatar_Skirmisher_8B997951 updated to position: (335.8, 100.0, 340.6) rot: (0.0, 1.0, 0.0, 0.1) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.178 == Mech: Avatar_Skirmisher_8B997951 updated to position: (335.8, 100.0, 340.6) rot: (0.0, 1.0, 0.0, 0.1) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.234 == Mech: Avatar_Skirmisher_8B997951 updated to position: (336.0, 100.0, 339.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.239 == Mech: Avatar_Skirmisher_8B997951 updated to position: (336.0, 100.0, 339.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.253 == Mech: Avatar_Skirmisher_8B997951 updated to position: (336.0, 100.0, 339.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (408.0, 123.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:02.334 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:02.349 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:02.364 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:02.395   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:58:07.262 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (224.0, 108.5, 485.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (96.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:07.275 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (224.0, 108.5, 485.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (96.0, 126.7, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.729 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (372.0, 109.8, 602.8) rot: (0.0, 1.0, 0.0, 0.2) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.766 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (349.5, 121.7, 515.5) rot: (0.0, 1.0, 0.0, 0.2) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.806 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (349.5, 121.7, 515.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.842 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (349.5, 121.7, 515.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.877 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.881 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:08.899 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (372.0, 109.8, 602.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:14.930 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (600.0, 117.0, 415.7) rot: (0.0, 1.0, 0.0, 0.2) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:14.972 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (532.5, 156.3, 342.4) rot: (0.0, 1.0, 0.0, 0.2) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.015 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (527.4, 153.3, 330.8) rot: (0.0, 1.0, 0.0, -0.1) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.061 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (522.5, 150.6, 325.3) rot: (0.0, 0.9, 0.0, -0.3) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.107 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (519.6, 148.6, 321.4) rot: (0.0, 0.9, 0.0, -0.3) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.154 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.3, 147.1, 317.9) rot: (0.0, 1.0, 0.0, -0.2) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.198 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.3, 147.1, 317.9) rot: (0.0, 1.0, 0.0, -0.1) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.242 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.3, 147.1, 317.9) rot: (0.0, 1.0, 0.0, -0.1) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.291 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.0, 146.1, 315.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.295 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.0, 146.1, 315.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.308 == Mech: Black Hawk-KU_Gladiator_1765C678 updated to position: (518.0, 146.1, 315.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (600.0, 117.0, 415.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:15.409 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:15.418 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:15.437 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:15.449 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:15.461 Target Marauder_Announcer_68BECF7F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:15.482   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:58:21.934 == Mech: Diomede_Striker_7496849C updated to position: (504.0, 110.6, 623.5) rot: (0.0, 1.0, 0.0, -0.3) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:21.974 == Mech: Diomede_Striker_7496849C updated to position: (504.0, 110.6, 623.5) rot: (0.0, 1.0, 0.0, -0.3) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.015 == Mech: Diomede_Striker_7496849C updated to position: (504.0, 110.6, 623.5) rot: (0.0, 1.0, 0.0, -0.2) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.044 == Mech: Diomede_Striker_7496849C updated to position: (504.0, 110.6, 623.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.075 == Mech: Diomede_Striker_7496849C updated to position: (504.0, 110.6, 623.5) rot: (0.0, 1.0, 0.0, 0.1) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.110 == Mech: Diomede_Striker_7496849C updated to position: (462.0, 126.3, 557.7) rot: (0.0, 1.0, 0.0, 0.1) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.113 == Mech: Diomede_Striker_7496849C updated to position: (462.0, 126.3, 557.7) rot: (0.0, 1.0, 0.0, 0.1) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.126 == Mech: Diomede_Striker_7496849C updated to position: (462.0, 126.3, 557.7) rot: (0.0, 1.0, 0.0, 0.1) from position: (504.0, 110.6, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:22.986 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (98.0, 100.0, 703.2) rot: (0.0, 0.8, 0.0, 0.7) from position: (72.0, 100.0, 706.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:23.000 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (98.0, 100.0, 703.2) rot: (0.0, 0.8, 0.0, 0.7) from position: (72.0, 100.0, 706.7) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:24.003 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (576.0, 103.3, 665.1) rot: (0.0, 0.7, 0.0, 0.7) from position: (576.0, 103.3, 665.1) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:24.036 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (576.0, 103.3, 665.1) rot: (0.0, 1.0, 0.0, -0.3) from position: (576.0, 103.3, 665.1) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:24.071 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (532.0, 117.2, 582.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (576.0, 103.3, 665.1) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:24.072 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (532.0, 117.2, 582.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (576.0, 103.3, 665.1) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:24.086 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (532.0, 117.2, 582.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (576.0, 103.3, 665.1) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.541 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (156.0, 100.0, 311.8) rot: (0.0, 1.0, 0.0, -0.2) from position: (156.0, 100.0, 311.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.576 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (156.0, 100.0, 311.8) rot: (0.0, 0.9, 0.0, 0.4) from position: (156.0, 100.0, 311.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.613 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (156.0, 100.0, 311.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.617 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (156.0, 100.0, 311.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.631 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (156.0, 100.0, 311.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:27.720 Target Marsden III MBT_Phantom_17AF4BEF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.728 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.732 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.741 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.750 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.762 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.774 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:27.787 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:33.558 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (238.0, 114.2, 606.2) rot: (0.0, 0.8, 0.0, 0.6) from position: (144.0, 117.0, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:33.574 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (238.0, 114.2, 606.2) rot: (0.0, 0.8, 0.0, 0.6) from position: (144.0, 117.0, 623.5) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.725 == Mech: Cyclops_Striker_5FE224B updated to position: (144.0, 117.5, 457.3) rot: (0.0, 0.9, 0.0, 0.5) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.756 == Mech: Cyclops_Striker_5FE224B updated to position: (144.0, 117.5, 457.3) rot: (0.0, 0.9, 0.0, 0.5) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.787 == Mech: Cyclops_Striker_5FE224B updated to position: (144.0, 117.5, 457.3) rot: (0.0, 0.9, 0.0, 0.5) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.820 == Mech: Cyclops_Striker_5FE224B updated to position: (144.0, 117.5, 457.3) rot: (0.0, 0.9, 0.0, 0.4) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.856 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.861 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.877 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (144.0, 117.5, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:58:36.984 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:36.993 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:37.003 Target Prince Crab 4HC_BXO_285D8653 sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:37.018 Target Dervish_Deadeye_1196E4FF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:37.034 Target Penetrator_Rhino_C76E80F0 sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:58:37.103   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+02:58:53.970   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:58:53.981 Updating last activated actor to: (Schiltron A`_Axle_F11ED49)
+02:59:03.377 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 1.0) from position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:03.430 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (630.0, 105.6, -412.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:03.479 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:03.483 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:03.492 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (630.0, 105.6, -412.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:03.497   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:59:03.498   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:59:13.035 == Mech: Archer_Brawler_CADC1699 updated to position: (48.0, 104.8, 457.3) rot: (0.0, 0.8, 0.0, 0.6) from position: (48.0, 104.8, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:13.039 == Mech: Archer_Brawler_CADC1699 updated to position: (48.0, 104.8, 457.3) rot: (0.0, 0.8, 0.0, 0.6) from position: (48.0, 104.8, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:13.053 == Mech: Archer_Brawler_CADC1699 updated to position: (48.0, 104.8, 457.3) rot: (0.0, 0.8, 0.0, 0.6) from position: (48.0, 104.8, 457.3) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:13.140 Target Marsden III MBT_Phantom_17AF4BEF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:13.146 Target Scimitar (RECCE)_Blaze_F977A1DD sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:13.148 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:19.514 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (120.0, 142.3, 540.4) rot: (0.0, -0.9, 0.0, 0.5) from position: (120.0, 142.3, 540.4) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:19.547 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (120.0, 142.3, 540.4) rot: (0.0, -0.9, 0.0, 0.4) from position: (120.0, 142.3, 540.4) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:19.586 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (98.0, 110.9, 460.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (120.0, 142.3, 540.4) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:19.589 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (98.0, 110.9, 460.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (120.0, 142.3, 540.4) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:19.602 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (98.0, 110.9, 460.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (120.0, 142.3, 540.4) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:19.702 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:19.713 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:25.910 == Mech: Behemoth Heavy Tank_Outrider_B29D4F8 updated to position: (432.0, 129.5, 498.8) rot: (0.0, 0.9, 0.0, 0.4) from position: (432.0, 129.5, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:25.946 == Mech: Behemoth Heavy Tank_Outrider_B29D4F8 updated to position: (432.0, 129.5, 498.8) rot: (0.0, 0.8, 0.0, 0.5) from position: (432.0, 129.5, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:25.985 == Mech: Behemoth Heavy Tank_Outrider_B29D4F8 updated to position: (490.0, 143.1, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (432.0, 129.5, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:25.988 == Mech: Behemoth Heavy Tank_Outrider_B29D4F8 updated to position: (490.0, 143.1, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (432.0, 129.5, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:26.006 == Mech: Behemoth Heavy Tank_Outrider_B29D4F8 updated to position: (490.0, 143.1, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (432.0, 129.5, 498.8) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:26.111 Target Marsden III MBT_Phantom_17AF4BEF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.119 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.125 Target Scimitar (RECCE)_Blaze_F977A1DD sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.131 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.151 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.172 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.201 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.226 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.258 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+02:59:26.368   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+02:59:32.329  -- CHECKING MOOD SETTINGS
+02:59:32.329    currentMood: EDM Hurricane
+02:59:32.329    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+02:59:40.857 Updating last activated actor to: (Scimitar (RECCE)_Blaze_F977A1DD)
+02:59:48.665 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (490.0, 114.2, -24.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 114.2, -24.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:48.718 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (490.0, 114.2, -24.2) rot: (0.0, -0.6, 0.0, 0.8) from position: (490.0, 114.2, -24.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:48.766 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (350.0, 100.0, 169.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (490.0, 114.2, -24.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:48.770 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (350.0, 100.0, 169.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (490.0, 114.2, -24.2) rot: (0.0, 0.0, 0.0, 0.0)
+02:59:48.784 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (350.0, 100.0, 169.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (490.0, 114.2, -24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:52.301   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:01:52.312 Updating last activated actor to: (Raven_Meatbag_B4EEDEE3)
+03:01:58.498 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 129.8, -509.2) rot: (0.0, 0.0, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.556 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 124.9, -317.3) rot: (0.0, 0.0, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.622 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 124.9, -317.3) rot: (0.0, 0.0, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.686 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (448.0, 122.2, -291.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.697 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (448.0, 122.2, -291.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.710 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (448.0, 122.2, -291.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 129.7, -509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:01:58.719   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:01:58.722   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:02:04.409 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (630.0, 114.3, 363.7) rot: (0.0, -0.7, 0.0, 0.7) from position: (630.0, 114.3, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:04.449 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 156.0, 340.4) rot: (0.0, -0.7, 0.0, 0.7) from position: (630.0, 114.3, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:04.492 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 155.9, 339.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (630.0, 114.3, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:04.504 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 155.9, 339.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (630.0, 114.3, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:04.519 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 155.9, 339.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (630.0, 114.3, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:04.647 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.658 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.663 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.673 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.685 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.697 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.711 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.725 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.740 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:04.753 Target Crabrauder_Harmony_547D0D86 is a blip, cannot be targeted by AI called shot
+03:02:17.260   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:02:17.270 Updating last activated actor to: (Dervish_Deadeye_1196E4FF)
+03:02:22.955 == Mech: Dervish_Deadeye_1196E4FF updated to position: (574.0, 100.7, -315.2) rot: (0.0, -0.7, 0.0, 0.7) from position: (574.0, 100.7, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:23.006 == Mech: Dervish_Deadeye_1196E4FF updated to position: (574.0, 100.7, -315.2) rot: (0.0, -0.7, 0.0, 0.7) from position: (574.0, 100.7, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:23.065 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 144.3, -194.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 100.7, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:23.074 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 144.3, -194.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 100.7, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:23.091 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 144.2, -194.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 100.7, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:23.102   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:02:23.104   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:02:32.764   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:32.782   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:33.560   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:33.880   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:33.886   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:33.930   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.252   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.258   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.303   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.461   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.467   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.509   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.633   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:34.638   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:36.474   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:36.947   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:36.953   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.246   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.889   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.895   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.939   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.982   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.988   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:46.995   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:47.035   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:02:59.018 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.053 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.098 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 1.0, 0.0, 0.1) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.145 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (224.0, 100.0, 291.0) rot: (0.0, 1.0, 0.0, 0.2) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.192 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (238.0, 100.0, 218.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.197 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (238.0, 100.0, 218.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.211 == Mech: Elite Manticore_Skirmisher_5691540B updated to position: (238.0, 100.0, 218.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (224.0, 100.0, 291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:02:59.352 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.359 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.364 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.374 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.384 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.392 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.403 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.414 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.428 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:02:59.439 Target Crabrauder_Harmony_547D0D86 is a blip, cannot be targeted by AI called shot
+03:04:19.393   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:04:19.405 Updating last activated actor to: (ExcavatorMech_TaintedLoki_ADF5247F)
+03:04:24.363 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (490.0, 132.3, -266.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (490.0, 132.2, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:24.415 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (490.0, 132.3, -266.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (490.0, 132.2, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:24.466 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (504.0, 131.2, -97.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 132.2, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:24.475 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (504.0, 131.2, -97.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 132.2, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:24.492 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (504.0, 131.2, -97.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 132.2, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:24.502   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:04:24.505   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:04:49.684   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:04:49.693 Updating last activated actor to: (Marsden III MBT_Phantom_17AF4BEF)
+03:04:53.351 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (476.0, 135.4, -242.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:53.402 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (476.0, 135.4, -242.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:53.451 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (518.0, 128.5, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:53.455 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (518.0, 128.5, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:53.470 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (476.0, 135.3, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:04:53.474   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:04:53.475   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:05:19.475 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (350.0, 118.5, 557.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.516 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.4, 146.0, 446.3) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.558 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.4, 146.0, 446.3) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.596 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.4, 146.0, 446.3) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.632 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.0, 146.4, 436.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.636 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.0, 146.4, 436.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.655 == Mech: Orion_Elite Skirmisher_68F0C967 updated to position: (392.0, 146.3, 436.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (350.0, 118.5, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:19.770 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:05:30.549 Updating last activated actor to: (Crabrauder_Harmony_547D0D86)
+03:05:37.172 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 99.7, -388.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (700.0, 99.7, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:37.220 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (700.0, 99.7, -388.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (700.0, 99.7, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:37.266 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (602.0, 107.6, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (700.0, 99.7, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:37.271 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (602.0, 107.6, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (700.0, 99.7, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:37.283 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (602.0, 107.5, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (700.0, 99.7, -388.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:05:54.610   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:05:54.619 Updating last activated actor to: (Marauder_Announcer_68BECF7F)
+03:06:00.477 == Mech: Marauder_Announcer_68BECF7F updated to position: (574.0, 108.2, -363.7) rot: (0.0, -0.6, 0.0, 0.8) from position: (574.0, 108.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:00.524 == Mech: Marauder_Announcer_68BECF7F updated to position: (574.0, 108.2, -363.7) rot: (0.0, -0.6, 0.0, 0.8) from position: (574.0, 108.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:00.572 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 126.2, -242.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 108.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:00.585 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 126.2, -242.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 108.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:00.600 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 126.2, -242.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (574.0, 108.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:00.610   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:06:00.613   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:06:17.945   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:06:17.954 Updating last activated actor to: (Balar_bloodydoves_64DB4691)
+03:06:25.266 == Mech: Balar_bloodydoves_64DB4691 updated to position: (518.0, 116.3, -315.2) rot: (0.0, -0.5, 0.0, 0.9) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.324 == Mech: Balar_bloodydoves_64DB4691 updated to position: (496.4, 150.8, -169.5) rot: (0.0, -0.5, 0.0, 0.9) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.465 == Mech: Balar_bloodydoves_64DB4691 updated to position: (501.3, 150.2, -159.6) rot: (0.0, 0.2, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.628 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.1, 150.1, -150.6) rot: (0.0, 0.2, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.765 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.1, 150.1, -150.6) rot: (0.0, 0.1, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.895 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.0, 149.6, -145.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.907 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.0, 149.6, -145.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.923 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.0, 149.4, -145.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (518.0, 116.3, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:25.931   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:06:25.934   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:06:39.086 == Mech: Diomede_Striker_7496849C updated to position: (462.0, 126.3, 557.7) rot: (0.0, 0.9, 0.0, -0.4) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.123 == Mech: Diomede_Striker_7496849C updated to position: (391.8, 137.1, 488.6) rot: (0.0, 0.9, 0.0, -0.4) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.164 == Mech: Diomede_Striker_7496849C updated to position: (391.8, 137.1, 488.6) rot: (0.0, 1.0, 0.0, 0.1) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.204 == Mech: Diomede_Striker_7496849C updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.209 == Mech: Diomede_Striker_7496849C updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.225 == Mech: Diomede_Striker_7496849C updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (462.0, 126.3, 557.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:39.347 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:06:39.360 Target Balar_bloodydoves_64DB4691 sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:06:39.375 Target Dervish_Deadeye_1196E4FF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:06:52.820   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:06:52.829 Updating last activated actor to: (Ebon Jaguar_Garrisoned_B096686C)
+03:06:57.855 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (462.0, 125.9, -266.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:57.910 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (507.1, 120.8, -64.8) rot: (0.0, -0.1, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.025 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (505.6, 117.9, -55.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.103 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (505.6, 117.9, -55.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.175 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.181 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.193 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 125.9, -266.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:06:58.200   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:06:58.202   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:07:14.178 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (238.0, 114.2, 606.2) rot: (0.0, 0.8, 0.0, 0.6) from position: (238.0, 114.2, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:14.212 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (238.0, 114.2, 606.2) rot: (0.0, 1.0, 0.0, 0.0) from position: (238.0, 114.2, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:14.249 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (252.0, 114.5, 485.0) rot: (0.0, 0.9, 0.0, 0.4) from position: (238.0, 114.2, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:14.254 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (252.0, 114.5, 485.0) rot: (0.0, 0.9, 0.0, 0.4) from position: (238.0, 114.2, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:14.268 == Mech: Schiltron C` Mk.B_Vanguard_32437B2 updated to position: (252.0, 114.5, 485.0) rot: (0.0, 0.9, 0.0, 0.4) from position: (238.0, 114.2, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:16.569 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:07:16.595 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:07:16.608 Target Ebon Jaguar_Garrisoned_B096686C sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:07:16.632 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:07:16.643 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:07:16.744   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:07:17.763   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:07:17.947   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:07:18.136   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:07:22.956 == Mech: Cyclops_Striker_5FE224B updated to position: (238.0, 100.0, 363.7) rot: (0.0, 1.0, 0.0, 0.3) from position: (210.0, 100.0, 412.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:22.972 == Mech: Cyclops_Striker_5FE224B updated to position: (238.0, 100.0, 363.7) rot: (0.0, 1.0, 0.0, 0.3) from position: (210.0, 100.0, 412.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:25.458   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:25.466 Updating last activated actor to: (Penetrator_Rhino_C76E80F0)
+03:07:31.408 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (560.0, 103.8, -339.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (560.0, 103.8, -339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:31.456 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (560.0, 103.8, -339.5) rot: (0.0, -0.4, 0.0, 0.9) from position: (560.0, 103.8, -339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:31.505 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (462.0, 136.5, -218.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (560.0, 103.8, -339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:31.511 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (462.0, 136.5, -218.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (560.0, 103.8, -339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:31.525 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (462.0, 136.3, -218.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (560.0, 103.8, -339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:31.532   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:31.535   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:38.954   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:39.590   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:40.337   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:40.554   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:40.561   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:40.938   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:40.946   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:07:48.193 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (406.0, 128.0, 509.2) rot: (0.0, 0.6, 0.0, 0.8) from position: (406.0, 128.0, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:48.224 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (406.0, 128.0, 509.2) rot: (0.0, 0.6, 0.0, 0.8) from position: (406.0, 128.0, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:48.261 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (462.0, 121.5, 509.2) rot: (0.0, 1.0, 0.0, 0.3) from position: (406.0, 128.0, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:48.268 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (462.0, 121.5, 509.2) rot: (0.0, 1.0, 0.0, 0.3) from position: (406.0, 128.0, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:48.283 == Mech: Gunslinger_Elite Lancer_E07DCF4B updated to position: (462.0, 121.5, 509.2) rot: (0.0, 1.0, 0.0, 0.3) from position: (406.0, 128.0, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:07:55.171   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:07:55.181 Updating last activated actor to: (Prince Crab 4HC_BXO_285D8653)
+03:08:02.100 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 130.3, -315.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.157 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (506.9, 146.9, -137.4) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.260 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (504.1, 130.5, -95.6) rot: (0.0, 0.0, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.396 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (496.2, 123.5, -80.0) rot: (0.0, 0.0, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.522 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.2, 118.9, -73.8) rot: (0.0, -0.6, 0.0, 0.8) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.646 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.2, 118.9, -73.8) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.747 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.2, 118.9, -73.8) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.828 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 118.5, -72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.838 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 118.5, -72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.851 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 118.5, -72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 130.2, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:02.859   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:08:02.863   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:08:17.620 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (224.0, 108.5, 485.0) rot: (0.0, 0.7, 0.0, 0.7) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:17.653 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (224.0, 108.5, 485.0) rot: (0.0, 0.8, 0.0, 0.7) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:17.694 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (224.0, 108.5, 485.0) rot: (0.0, 0.9, 0.0, 0.5) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:17.737 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (294.0, 129.2, 509.2) rot: (0.0, 0.9, 0.0, 0.3) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:17.744 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (294.0, 129.2, 509.2) rot: (0.0, 0.9, 0.0, 0.3) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:17.759 == Mech: Devastator DVE-5B Mk.3_Flanker_17BDF69B updated to position: (294.0, 129.2, 509.2) rot: (0.0, 0.9, 0.0, 0.3) from position: (224.0, 108.5, 485.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.095 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.130 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.175 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (350.0, 122.8, 509.2) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.224 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (378.0, 141.4, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.227 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (378.0, 141.4, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.246 == Mech: Awesome_Skirmisher_FD8BF22A updated to position: (378.0, 141.4, 460.7) rot: (0.0, 1.0, 0.0, -0.1) from position: (350.0, 122.8, 509.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:20.428 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:20.440 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:20.450 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:20.461 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:20.472 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:20.486 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:25.906 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (98.0, 100.0, 703.2) rot: (0.0, 0.8, 0.0, 0.7) from position: (98.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:25.943 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (98.0, 100.0, 703.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (98.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:25.979 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (140.0, 100.2, 679.0) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:25.984 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (140.0, 100.2, 679.0) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:25.999 == Mech: Schrek PPC Carrier_Sharpshooter_A1A4886 updated to position: (140.0, 100.2, 679.0) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:29.600 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (532.0, 117.2, 582.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (532.0, 117.2, 582.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:29.634 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (532.0, 117.2, 582.0) rot: (0.0, 0.7, 0.0, -0.7) from position: (532.0, 117.2, 582.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:29.672 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (420.0, 116.7, 533.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (532.0, 117.2, 582.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:29.675 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (420.0, 116.7, 533.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (532.0, 117.2, 582.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:29.690 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (420.0, 116.7, 533.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (532.0, 117.2, 582.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:34.111   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:08:34.118 Updating last activated actor to: (Schiltron A`_Axle_F11ED49)
+03:08:45.142   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:08:45.146   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:08:50.281 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.328 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.371 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (602.0, 100.0, -363.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.431 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (476.0, 131.4, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.433 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (476.0, 131.4, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.444 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (476.0, 131.3, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 100.0, -363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:50.448   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:08:50.450   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:08:59.015 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (98.0, 110.9, 460.7) rot: (0.0, 1.0, 0.0, 0.0) from position: (98.0, 110.9, 460.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:59.054 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (98.0, 110.9, 460.7) rot: (0.0, 0.6, 0.0, 0.8) from position: (98.0, 110.9, 460.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:59.093 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (154.0, 113.5, 460.7) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 110.9, 460.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:59.102 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (154.0, 113.5, 460.7) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 110.9, 460.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:59.120 == Mech: Behemoth (Up-Armored)_Brawler_589DCE5 updated to position: (154.0, 113.5, 460.7) rot: (0.0, 1.0, 0.0, 0.3) from position: (98.0, 110.9, 460.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:08:59.260 Target Marsden III MBT_Phantom_17AF4BEF sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.267 Target Schiltron A`_Axle_F11ED49 sensor info LocationAndType is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.270 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.282 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.299 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.311 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.324 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.357 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.370 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:08:59.424   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:09:05.503  -- CHECKING MOOD SETTINGS
+03:09:05.503    currentMood: EDM Hurricane
+03:09:05.503    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+03:09:09.582   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:09:09.593 Updating last activated actor to: (Raven_Meatbag_B4EEDEE3)
+03:09:14.886 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (448.0, 122.2, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:14.945 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (504.0, 143.6, -121.1) rot: (0.0, -0.1, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.026 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (516.5, 134.1, -98.8) rot: (0.0, 0.1, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.131 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (535.8, 135.2, -82.7) rot: (0.0, 0.3, 0.0, 0.9) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.258 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (545.3, 131.9, -74.1) rot: (0.0, 0.5, 0.0, 0.9) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.364 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (545.3, 131.9, -74.1) rot: (0.0, 0.3, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.459 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (545.3, 131.9, -74.1) rot: (0.0, 0.2, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.548 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (546.0, 132.2, -72.7) rot: (0.0, 0.2, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.559 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (546.0, 132.2, -72.7) rot: (0.0, 0.2, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.572 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (546.0, 131.7, -72.7) rot: (0.0, 0.2, 0.0, 1.0) from position: (448.0, 122.2, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:15.579   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:09:15.582   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:09:33.367 Updating last activated actor to: (Scimitar (RECCE)_Blaze_F977A1DD)
+03:09:41.567 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (350.0, 100.0, 169.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.616 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (241.4, 101.2, 414.9) rot: (0.0, -0.5, 0.0, 0.9) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.675 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (192.6, 119.1, 527.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.742 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (192.6, 119.1, 527.0) rot: (0.0, 0.1, 0.0, 1.0) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.796 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (196.0, 121.3, 533.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.802 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (196.0, 121.3, 533.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.811 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (196.0, 121.3, 533.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (350.0, 100.0, 169.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:09:41.815   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:09:41.817   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:09:52.551   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:09:54.097   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:03.243   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:03.261   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:05.369   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:05.651   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:05.660   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:06.430   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:06.451   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:08.228   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:25.191   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:25.862   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:27.866   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:28.486   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:28.497   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:28.547   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:28.558   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:29.789   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:30.130   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:30.471   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:30.800   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:10:35.073   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:10:42.385   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:10:42.395 Updating last activated actor to: (Dervish_Deadeye_1196E4FF)
+03:10:47.526 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 144.3, -194.0) rot: (0.0, 0.4, 0.0, 0.9) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.584 == Mech: Dervish_Deadeye_1196E4FF updated to position: (488.6, 117.1, -10.8) rot: (0.0, 0.4, 0.0, 0.9) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.693 == Mech: Dervish_Deadeye_1196E4FF updated to position: (477.8, 113.2, -4.4) rot: (0.0, -0.4, 0.0, 0.9) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.826 == Mech: Dervish_Deadeye_1196E4FF updated to position: (477.8, 113.2, -4.4) rot: (0.0, -0.3, 0.0, 1.0) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.898 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.904 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.916 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (476.0, 144.2, -194.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:10:47.924   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:10:47.927   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:13:12.314 == Mech: Cyclops_Striker_5FE224B updated to position: (238.0, 100.0, 363.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (238.0, 100.0, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:12.347 == Mech: Cyclops_Striker_5FE224B updated to position: (238.0, 100.0, 363.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (238.0, 100.0, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:12.385 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, -0.3, 0.0, 1.0) from position: (238.0, 100.0, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:12.390 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, -0.3, 0.0, 1.0) from position: (238.0, 100.0, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:12.404 == Mech: Cyclops_Striker_5FE224B updated to position: (210.0, 100.0, 412.2) rot: (0.0, -0.3, 0.0, 1.0) from position: (238.0, 100.0, 363.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:22.282   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:13:22.291 Updating last activated actor to: (ExcavatorMech_TaintedLoki_ADF5247F)
+03:13:26.856 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (504.0, 131.2, -97.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (504.0, 131.2, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:26.905 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (504.0, 131.2, -97.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (504.0, 131.2, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:26.954 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (518.0, 130.8, 72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (504.0, 131.2, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:26.960 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (518.0, 130.8, 72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (504.0, 131.2, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:26.977 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (518.0, 130.7, 72.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (504.0, 131.2, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:26.985   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:13:26.989   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:13:45.831 Target Crabrauder_Harmony_547D0D86 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.845 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.856 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.872 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.896 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.935 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.948 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:45.952 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:13:51.195 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 155.9, 339.5) rot: (0.0, -0.6, 0.0, 0.8) from position: (532.0, 155.9, 339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:51.241 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (532.0, 155.9, 339.5) rot: (0.0, -0.6, 0.0, 0.8) from position: (532.0, 155.9, 339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:51.296 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (504.0, 150.7, 339.5) rot: (0.0, 1.0, 0.0, -0.3) from position: (532.0, 155.9, 339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:51.298 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (504.0, 150.7, 339.5) rot: (0.0, 1.0, 0.0, -0.3) from position: (532.0, 155.9, 339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:51.314 == Mech: Thunderbolt_Elite Flanker_B8311330 updated to position: (504.0, 150.7, 339.5) rot: (0.0, 1.0, 0.0, -0.3) from position: (532.0, 155.9, 339.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:13:57.410   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:13:57.419 Updating last activated actor to: (Ebon Jaguar_Garrisoned_B096686C)
+03:14:03.755 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.807 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.855 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (504.0, 117.1, -48.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.904 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.910 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.923 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (504.0, 117.1, -48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:03.930   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:03.932   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:27.874   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:14:27.882 Updating last activated actor to: (Balar_bloodydoves_64DB4691)
+03:14:31.766 == Mech: Balar_bloodydoves_64DB4691 updated to position: (504.0, 149.6, -145.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:31.820 == Mech: Balar_bloodydoves_64DB4691 updated to position: (458.3, 108.0, 27.0) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:31.928 == Mech: Balar_bloodydoves_64DB4691 updated to position: (449.0, 108.4, 34.6) rot: (0.0, -0.5, 0.0, 0.9) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.037 == Mech: Balar_bloodydoves_64DB4691 updated to position: (447.5, 111.3, 42.4) rot: (0.0, -0.3, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.143 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 113.6, 47.3) rot: (0.0, 0.1, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.240 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 113.6, 47.3) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.327 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 113.6, 47.3) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.403 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.414 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.425 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (504.0, 149.4, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:32.433   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:14:32.435   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:14:38.803   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:14:38.951   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:14:39.574   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:14:45.811 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.823 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.840 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.851 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.863 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.877 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.888 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.904 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:45.920 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:14:46.804   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:47.833   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:47.836   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:48.086   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:48.122   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:48.301   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:48.474   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:14:57.350   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:14:57.359 Updating last activated actor to: (Marsden III MBT_Phantom_17AF4BEF)
+03:14:59.892 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (518.0, 128.5, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:59.943 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (518.0, 128.5, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:59.986 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.6, 24.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:14:59.992 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.6, 24.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:00.004 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.5, 24.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (518.0, 128.4, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:00.008   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:15:00.010   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:15:25.610   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:15:25.620 Updating last activated actor to: (Marauder_Announcer_68BECF7F)
+03:15:27.004 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 126.2, -242.5) rot: (0.0, 0.3, 0.0, 0.9) from position: (448.0, 126.2, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:27.054 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 126.2, -242.5) rot: (0.0, 0.3, 0.0, 0.9) from position: (448.0, 126.2, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:27.102 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (448.0, 126.2, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:27.110 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (448.0, 126.2, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:27.125 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (448.0, 126.2, -242.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:15:27.133   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:15:27.136   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:16:16.210 Updating last activated actor to: (Crabrauder_Harmony_547D0D86)
+03:16:17.450 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (602.0, 107.6, -315.2) rot: (0.0, -0.8, 0.0, 0.6) from position: (602.0, 107.5, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:17.503 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (602.0, 107.6, -315.2) rot: (0.0, -0.8, 0.0, 0.6) from position: (602.0, 107.5, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:17.547 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (560.0, 102.7, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 107.5, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:17.553 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (560.0, 102.7, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 107.5, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:17.568 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (560.0, 102.7, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (602.0, 107.5, -315.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:20.316   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:21.025   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.099   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.584   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.600   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.688   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.836   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.859   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:22.914   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.009   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.026   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.044   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.096   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.113   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.130   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:23.146   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+
+03:16:33.088 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (420.0, 116.7, 533.5) rot: (0.0, 1.0, 0.0, 0.0) from position: (420.0, 116.7, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:33.126 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (420.0, 116.7, 533.5) rot: (0.0, 0.9, 0.0, -0.5) from position: (420.0, 116.7, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:33.172 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (420.0, 116.7, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:33.177 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (420.0, 116.7, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:33.197 == Mech: Schrek AC Carrier_Flanker_F8567936 updated to position: (392.0, 138.7, 485.0) rot: (0.0, 1.0, 0.0, 0.0) from position: (420.0, 116.7, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:33.560   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:16:34.042   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:16:34.144   -- effects tooltip text is: <size=90%><b>ECM JAMMING</b>: <color=#FF0000>-3 sensor details.</color>
+
+03:16:44.011 Updating last activated actor to: (Penetrator_Rhino_C76E80F0)
+03:16:52.424 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (462.0, 136.5, -218.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (462.0, 136.3, -218.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:52.474 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (462.0, 136.5, -218.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (462.0, 136.3, -218.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:52.517 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (392.0, 100.0, -97.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (462.0, 136.3, -218.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:52.521 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (392.0, 100.0, -97.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (462.0, 136.3, -218.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:52.532 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (392.0, 100.0, -97.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (462.0, 136.3, -218.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:16:58.968   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:16:59.117   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:00.395   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:16.760   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:17:16.772 Updating last activated actor to: (Prince Crab 4HC_BXO_285D8653)
+03:17:20.456 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 1.0) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.508 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (405.1, 100.0, 62.9) rot: (0.0, 0.0, 0.0, 1.0) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.596 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (404.6, 100.0, 97.9) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.704 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.7, 100.0, 96.5) rot: (0.0, -0.6, 0.0, 0.8) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.811 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.7, 100.0, 96.5) rot: (0.0, -0.5, 0.0, 0.9) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.895 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.7, 100.0, 96.5) rot: (0.0, -0.5, 0.0, 0.9) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.967 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.0, 100.0, 97.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.976 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.0, 100.0, 97.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.988 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.0, 100.0, 97.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:20.996   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:17:21.001   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:17:27.520   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:27.531 Updating last activated actor to: (Schiltron A`_Axle_F11ED49)
+03:17:30.932 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (476.0, 131.4, -291.0) rot: (0.0, -0.1, 0.0, 1.0) from position: (476.0, 131.3, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:30.975 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (476.0, 131.4, -291.0) rot: (0.0, 0.0, 0.0, 1.0) from position: (476.0, 131.3, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:31.020 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (434.0, 109.7, -121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 131.3, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:31.028 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (434.0, 109.7, -121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 131.3, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:31.040 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (434.0, 109.6, -121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 131.3, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:31.046   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:31.049   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:36.331 == Mech: Avatar_Sharpshooter_463DE641 updated to position: (-300.0, 113.0, 436.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:36.362 == Mech: Avatar_Sharpshooter_463DE641 updated to position: (-300.0, 113.0, 436.5) rot: (0.0, 0.1, 0.0, 1.0) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:36.400 == Mech: Avatar_Sharpshooter_463DE641 updated to position: (-238.0, 129.3, 460.7) rot: (0.0, 0.7, 0.0, 0.7) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:36.406 == Mech: Avatar_Sharpshooter_463DE641 updated to position: (-238.0, 129.3, 460.7) rot: (0.0, 0.7, 0.0, 0.7) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:36.422 == Mech: Avatar_Sharpshooter_463DE641 updated to position: (-238.0, 129.3, 460.7) rot: (0.0, 0.7, 0.0, 0.7) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:36.523 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.534 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.550 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.563 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.576 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.593 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.606 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:36.650   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:37.537   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:42.897 == Mech: King Crab_Outrider_7F455896 updated to position: (-180.0, 100.0, 644.3) rot: (0.0, -0.3, 0.0, 0.9) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:42.934 == Mech: King Crab_Outrider_7F455896 updated to position: (-180.0, 100.0, 644.3) rot: (0.0, -0.3, 0.0, 0.9) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:42.974 == Mech: King Crab_Outrider_7F455896 updated to position: (-180.0, 100.0, 644.3) rot: (0.0, 0.8, 0.0, 0.6) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:43.015 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.2, 606.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:43.021 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.2, 606.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:43.043 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.1, 606.2) rot: (0.0, 0.9, 0.0, 0.4) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:43.127 Target Scimitar (RECCE)_Blaze_F977A1DD sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:43.132 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:43.149 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.025 == Mech: Archer_Gladiator_40C5801C updated to position: (-144.0, 102.0, 623.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:50.062 == Mech: Archer_Gladiator_40C5801C updated to position: (-144.0, 102.0, 623.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:50.101 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.9, 0.0, 0.5) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:50.109 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.9, 0.0, 0.5) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:50.130 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.9, 0.0, 0.5) from position: (0.0, 0.0, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:17:50.247 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.255 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.268 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.276 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.287 Target ExcavatorMech_TaintedLoki_ADF5247F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.295 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:17:50.452   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:51.662   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:51.743   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:17:57.413  -- CHECKING MOOD SETTINGS
+03:17:57.413    currentMood: EDM Hurricane
+03:17:57.413    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+03:18:00.247   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:18:00.257 Updating last activated actor to: (Raven_Meatbag_B4EEDEE3)
+03:18:03.534 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (546.0, 132.2, -72.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.580 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (504.8, 138.2, 83.9) rot: (0.0, -0.5, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.645 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (496.6, 134.1, 92.8) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.690 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (482.7, 125.5, 104.4) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.742 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (476.6, 123.5, 109.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.796 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (471.8, 121.4, 112.5) rot: (0.0, -0.5, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.855 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (468.3, 119.3, 115.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.895 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (465.4, 118.0, 117.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.933 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (463.7, 117.3, 119.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:03.984 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.4, 116.9, 120.7) rot: (0.0, -0.4, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.037 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.4, 116.9, 120.7) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.080 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.4, 116.9, 120.7) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.131 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 116.9, 121.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.140 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 116.9, 121.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.150 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 116.9, 121.2) rot: (0.0, -0.3, 0.0, 0.9) from position: (546.0, 131.7, -72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:04.158   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:18:04.161   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:18:18.480 Updating last activated actor to: (Scimitar (RECCE)_Blaze_F977A1DD)
+03:18:23.622 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (196.0, 121.3, 533.5) rot: (0.0, 0.4, 0.0, 0.9) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.676 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (119.7, 100.0, 670.9) rot: (0.0, 0.6, 0.0, 0.8) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.732 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (107.2, 100.0, 682.8) rot: (0.0, -0.4, 0.0, 0.9) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.788 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (91.1, 100.0, 698.4) rot: (0.0, -0.4, 0.0, 0.9) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.840 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (81.2, 100.0, 704.4) rot: (0.0, -0.4, 0.0, 0.9) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.889 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (75.1, 100.0, 706.0) rot: (0.0, -0.5, 0.0, 0.8) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.938 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (71.4, 100.0, 704.5) rot: (0.0, -0.7, 0.0, 0.7) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:23.974 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (71.4, 100.0, 704.5) rot: (0.0, -0.9, 0.0, 0.4) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:24.010 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (70.0, 100.0, 703.2) rot: (0.0, 0.9, 0.0, -0.4) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:24.014 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (70.0, 100.0, 703.2) rot: (0.0, 0.9, 0.0, -0.4) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:24.024 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (70.0, 100.0, 703.2) rot: (0.0, 0.9, 0.0, -0.4) from position: (196.0, 121.3, 533.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:18:59.670   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:18:59.679 Updating last activated actor to: (Dervish_Deadeye_1196E4FF)
+03:19:04.103 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.150 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.194 == Mech: Dervish_Deadeye_1196E4FF updated to position: (476.0, 110.5, 0.0) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.235 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.239 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.250 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (476.0, 110.5, 0.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:19:04.257   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:19:04.260   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:20:02.937   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+2</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:20:02.947 Updating last activated actor to: (ExcavatorMech_TaintedLoki_ADF5247F)
+03:20:05.315 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (518.0, 130.8, 72.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (518.0, 130.7, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:05.361 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (518.0, 130.8, 72.7) rot: (0.0, -0.5, 0.0, 0.9) from position: (518.0, 130.7, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:05.399 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (406.0, 100.0, 266.7) rot: (0.0, -0.3, 0.0, 0.9) from position: (518.0, 130.7, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:05.405 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (406.0, 100.0, 266.7) rot: (0.0, -0.3, 0.0, 0.9) from position: (518.0, 130.7, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:05.415 == Mech: ExcavatorMech_TaintedLoki_ADF5247F updated to position: (406.0, 100.0, 266.7) rot: (0.0, -0.3, 0.0, 0.9) from position: (518.0, 130.7, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:05.421   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+2</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:20:05.425   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+2</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:20:11.009 Target Marauder_Announcer_68BECF7F sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.022 Target Penetrator_Rhino_C76E80F0 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.038 Target Balar_bloodydoves_64DB4691 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.051 Target Ebon Jaguar_Garrisoned_B096686C sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.062 Target Prince Crab 4HC_BXO_285D8653 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.088 Target Dervish_Deadeye_1196E4FF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.102 Target Raven_Meatbag_B4EEDEE3 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.114 Target Schiltron A`_Axle_F11ED49 sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.118 Target Marsden III MBT_Phantom_17AF4BEF sensor info NoInfo is less than SurfaceScan and outside visualID, cannot be targeted by AI called shot
+03:20:11.175   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.408   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.411   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.505   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.554   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.735   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.738   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.910   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:12.913   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:13.077   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:13.081   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:20:20.034   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:20:20.043 Updating last activated actor to: (Marsden III MBT_Phantom_17AF4BEF)
+03:20:24.200 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.6, 24.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.247 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.6, 24.2) rot: (0.0, 0.7, 0.0, 0.7) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.290 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (490.0, 118.6, 24.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.334 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (420.0, 112.2, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.337 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (420.0, 112.2, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.346 == Mech: Marsden III MBT_Phantom_17AF4BEF updated to position: (420.0, 112.2, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (490.0, 118.5, 24.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:20:24.353   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:20:24.355   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:22:13.096   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:13.106 Updating last activated actor to: (Ebon Jaguar_Garrisoned_B096686C)
+03:22:17.476 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.527 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.571 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (406.0, 100.0, 72.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.616 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (336.0, 100.0, 194.0) rot: (0.0, -0.3, 0.0, 0.9) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.620 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (336.0, 100.0, 194.0) rot: (0.0, -0.3, 0.0, 0.9) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.630 == Mech: Ebon Jaguar_Garrisoned_B096686C updated to position: (336.0, 100.0, 194.0) rot: (0.0, -0.3, 0.0, 0.9) from position: (406.0, 100.0, 72.7) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:17.635   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:17.637   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+7</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:33.105   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:33.114 Updating last activated actor to: (Marauder_Announcer_68BECF7F)
+03:22:38.059 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:38.107 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.4, 101.2, -0.6) rot: (0.0, 0.0, 0.0, 1.0) from position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:38.170 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 101.1, 0.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:38.175 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 101.1, 0.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:38.186 == Mech: Marauder_Announcer_68BECF7F updated to position: (448.0, 101.1, 0.0) rot: (0.0, -0.3, 0.0, 1.0) from position: (448.0, 122.6, -145.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:38.193   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:38.196   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:22:54.061   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:22:54.069 Updating last activated actor to: (Balar_bloodydoves_64DB4691)
+03:22:58.597 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 114.1, 48.5) rot: (0.0, -0.8, 0.0, 0.6) from position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:58.647 == Mech: Balar_bloodydoves_64DB4691 updated to position: (448.0, 114.1, 48.5) rot: (0.0, -0.8, 0.0, 0.6) from position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:58.690 == Mech: Balar_bloodydoves_64DB4691 updated to position: (392.0, 100.0, 145.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:58.697 == Mech: Balar_bloodydoves_64DB4691 updated to position: (392.0, 100.0, 145.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:58.707 == Mech: Balar_bloodydoves_64DB4691 updated to position: (392.0, 100.0, 145.5) rot: (0.0, -0.2, 0.0, 1.0) from position: (448.0, 114.1, 48.5) rot: (0.0, 0.0, 0.0, 0.0)
+03:22:58.711   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:22:58.714   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:23:04.485 Updating last activated actor to: (Crabrauder_Harmony_547D0D86)
+03:23:06.264   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+2</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-3</color> to enemy ECM, Stealth, Mimetic
+
+03:23:06.268 Updating last activated actor to: (Marauder_Announcer_68BECF7F)
+03:23:07.671 Updating last activated actor to: (Crabrauder_Harmony_547D0D86)
+03:23:10.648 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (560.0, 102.7, -291.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.695 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (461.3, 138.5, -192.9) rot: (0.0, -0.4, 0.0, 0.9) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.747 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.5, 138.7, -184.8) rot: (0.0, 0.1, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.803 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (463.3, 137.4, -178.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.847 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (463.2, 135.5, -173.6) rot: (0.0, 0.0, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.899 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.5, 134.1, -170.8) rot: (0.0, -0.1, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.937 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.5, 134.1, -170.8) rot: (0.0, -0.2, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:10.975 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.5, 134.1, -170.8) rot: (0.0, -0.2, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:11.014 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.0, 133.5, -169.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:11.022 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.0, 133.5, -169.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:11.031 == Mech: Crabrauder_Harmony_547D0D86 updated to position: (462.0, 133.5, -169.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (560.0, 102.7, -291.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:32.886   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:23:32.896 Updating last activated actor to: (Penetrator_Rhino_C76E80F0)
+03:23:34.097 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (392.0, 100.0, -97.0) rot: (0.0, -0.5, 0.0, 0.9) from position: (392.0, 100.0, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:34.143 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (392.0, 100.0, -97.0) rot: (0.0, -0.5, 0.0, 0.9) from position: (392.0, 100.0, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:34.184 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (350.0, 100.0, -24.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (392.0, 100.0, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:34.188 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (350.0, 100.0, -24.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (392.0, 100.0, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:34.199 == Mech: Penetrator_Rhino_C76E80F0 updated to position: (350.0, 100.0, -24.2) rot: (0.0, -0.1, 0.0, 1.0) from position: (392.0, 100.0, -97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:34.203   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:23:34.206   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:23:47.099   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:23:47.109 Updating last activated actor to: (Prince Crab 4HC_BXO_285D8653)
+03:23:49.506 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (392.0, 100.0, 97.0) rot: (0.0, 0.1, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:49.549 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (321.2, 100.0, 234.7) rot: (0.0, 0.1, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:49.651 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (321.4, 100.0, 245.7) rot: (0.0, -0.1, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:49.760 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (322.9, 100.0, 256.4) rot: (0.0, 0.1, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:49.877 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (323.0, 100.0, 262.5) rot: (0.0, 0.0, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:49.969 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (323.0, 100.0, 262.5) rot: (0.0, -0.1, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:50.058 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (322.0, 100.0, 266.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:50.061 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (322.0, 100.0, 266.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:50.069 == Mech: Prince Crab 4HC_BXO_285D8653 updated to position: (322.0, 100.0, 266.7) rot: (0.0, -0.2, 0.0, 1.0) from position: (392.0, 100.0, 97.0) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:50.074   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:23:50.078   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:23:58.611 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (-98.0, 104.6, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:58.615 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (-98.0, 104.6, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:23:58.638 == Mech: Archer_Gladiator_40C5801C updated to position: (-98.0, 104.6, 606.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (-98.0, 104.6, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:06.349   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:24:06.356 Updating last activated actor to: (Schiltron A`_Axle_F11ED49)
+03:24:09.458 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (434.0, 109.7, -121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (434.0, 109.6, -121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:09.497 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (434.0, 109.7, -121.2) rot: (0.0, 0.1, 0.0, 1.0) from position: (434.0, 109.6, -121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:09.531 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (448.0, 100.7, -48.5) rot: (0.0, -0.3, 0.0, 0.9) from position: (434.0, 109.6, -121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:09.532 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (448.0, 100.7, -48.5) rot: (0.0, -0.3, 0.0, 0.9) from position: (434.0, 109.6, -121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:09.540 == Mech: Schiltron A`_Axle_F11ED49 updated to position: (448.0, 100.7, -48.5) rot: (0.0, -0.3, 0.0, 0.9) from position: (434.0, 109.6, -121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:09.544   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:24:09.545   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+
+03:24:12.645 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.2, 606.2) rot: (0.0, 0.6, 0.0, 0.8) from position: (-210.0, 114.1, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:12.651 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.2, 606.2) rot: (0.0, 0.6, 0.0, 0.8) from position: (-210.0, 114.1, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:12.674 == Mech: King Crab_Outrider_7F455896 updated to position: (-210.0, 114.1, 606.2) rot: (0.0, 0.6, 0.0, 0.8) from position: (-210.0, 114.1, 606.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:19.446  -- CHECKING MOOD SETTINGS
+03:24:19.446    currentMood: EDM Hurricane
+03:24:19.446    moodTags: biomeVerdantJungle,mood_timeAfternoon,mood_timeDay,mood_weatherRain,mood_fogHeavy,mood_mapTypeArena,mood_mapTypeGeneral,mood_mapTypeCampaign
+03:24:22.126 Updating last activated actor to: (Scimitar (RECCE)_Blaze_F977A1DD)
+03:24:28.799 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (70.0, 100.0, 703.2) rot: (0.0, 0.9, 0.0, -0.4) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:28.834 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-143.2, 100.0, 670.1) rot: (0.0, 0.7, 0.0, -0.7) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:28.875 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-215.8, 99.6, 660.2) rot: (0.0, 0.8, 0.0, -0.7) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:28.922 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-274.0, 100.2, 635.5) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:28.968 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-288.6, 104.8, 626.2) rot: (0.0, 0.9, 0.0, -0.4) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.012 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-296.8, 108.4, 623.5) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.058 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-302.0, 110.7, 621.5) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.092 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-305.7, 111.6, 619.7) rot: (0.0, 0.8, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.134 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-307.9, 112.0, 618.4) rot: (0.0, 0.9, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.166 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-310.0, 112.3, 617.3) rot: (0.0, 0.9, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.200 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-311.6, 112.4, 616.6) rot: (0.0, 0.8, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.234 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-313.0, 112.5, 616.2) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.266 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-314.1, 112.6, 615.8) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.300 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-315.2, 112.7, 615.4) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.336 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-316.4, 112.8, 615.0) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.371 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-317.5, 113.0, 614.5) rot: (0.0, 0.8, 0.0, -0.6) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.409 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-318.7, 113.2, 613.9) rot: (0.0, 0.8, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.446 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-319.7, 113.4, 613.2) rot: (0.0, 0.9, 0.0, -0.5) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.482 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-320.6, 113.7, 612.5) rot: (0.0, 0.9, 0.0, -0.4) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.526 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-321.3, 114.1, 611.5) rot: (0.0, 0.9, 0.0, -0.3) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.562 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-321.9, 114.4, 610.2) rot: (0.0, 1.0, 0.0, -0.2) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.597 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.1, 114.7, 609.2) rot: (0.0, 1.0, 0.0, -0.1) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.629 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.2, 115.0, 608.1) rot: (0.0, 1.0, 0.0, 0.0) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.664 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.1, 115.3, 607.1) rot: (0.0, 1.0, 0.0, 0.0) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.704 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.1, 115.3, 607.1) rot: (0.0, 1.0, 0.0, 0.1) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.740 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.0, 115.6, 606.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.741 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.0, 115.6, 606.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:29.748 == Mech: Scimitar (RECCE)_Blaze_F977A1DD updated to position: (-322.0, 115.6, 606.2) rot: (0.0, 1.0, 0.0, 0.1) from position: (70.0, 100.0, 703.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:46.286   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:24:46.297 Updating last activated actor to: (Raven_Meatbag_B4EEDEE3)
+03:24:47.390 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 116.9, 121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 116.9, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:47.427 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (462.0, 116.9, 121.2) rot: (0.0, -0.2, 0.0, 1.0) from position: (462.0, 116.9, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:47.460 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (392.0, 101.0, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (462.0, 116.9, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:47.462 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (392.0, 101.0, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (462.0, 116.9, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:47.472 == Mech: Raven_Meatbag_B4EEDEE3 updated to position: (392.0, 101.0, 194.0) rot: (0.0, -0.4, 0.0, 0.9) from position: (462.0, 116.9, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:47.476   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:24:47.479   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+4</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-1</color> to enemy ECM, Stealth, Mimetic
+<size=90%><b>STEALTH</b>: med. <color=#00FF00>+2</color> / long <color=#00FF00>+2</color> / ext. <color=#00FF00>+3</color> attack modifier
+
+03:24:50.561   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:24:50.570 Updating last activated actor to: (Dervish_Deadeye_1196E4FF)
+03:24:52.370 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.410 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.444 == Mech: Dervish_Deadeye_1196E4FF updated to position: (406.0, 100.0, 121.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.485 == Mech: Dervish_Deadeye_1196E4FF updated to position: (322.0, 100.0, 218.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.494 == Mech: Dervish_Deadeye_1196E4FF updated to position: (322.0, 100.0, 218.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.501 == Mech: Dervish_Deadeye_1196E4FF updated to position: (322.0, 100.0, 218.2) rot: (0.0, -0.4, 0.0, 0.9) from position: (406.0, 100.0, 121.2) rot: (0.0, 0.0, 0.0, 0.0)
+03:24:52.506   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:24:52.508   -- effects tooltip text is: <size=90%><b>ECM SHIELD</b>: <color=#00FF00>+6</color> to detect or attack.
+<size=90%><b>ACTIVE PROBE</b>: <color=#00FF00>-2</color> to enemy ECM, Stealth, Mimetic
+
+03:26:42.122 RESETTING STATE!
+03:26:42.179 RESETTING STATE!

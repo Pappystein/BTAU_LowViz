@@ -1,0 +1,466 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "Quirk"
+      }
+    ],
+    "BonusDescriptions": [
+      "VariableTargeting: 2"
+    ],
+    "ActivatableComponent": {
+      "ButtonName": "Range Mode",
+      "CanNotBeActivatedManualy": false,
+      "CanActivateAfterMove": true,
+      "CanActivateAfterFire": true,
+      "ActiveByDefault": true,
+      "SafeActivation": true,
+      "ActivationMessage": "Long Range",
+      "DeactivationMessage": "Short Range",
+      "NoUniqueCheck": true,
+      "statusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccER",
+            "Name": "Quirk Variable Range Targeting Activatable: Improved Extra Long Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACExtraLongRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "-2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccLR",
+            "Name": "Quirk Variable Range Targeting Activatable: Improved Long Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACLongRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "-2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccMR",
+            "Name": "Quirk Variable Range Targeting Activatable: Reduced Medium Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACMediumRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccSR",
+            "Name": "Quirk Variable Range Targeting Activatable: Reduced Short Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACShortRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        }
+      ],
+      "offlineStatusEffects": [
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccER",
+            "Name": "Quirk Variable Range Targeting Offline Activatable: Reduced Extra Long Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACExtraLongRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccLR",
+            "Name": "Quirk Variable Range Targeting Offline Activatable: Reduced Long Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACLongRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccMR",
+            "Name": "Quirk Variable Range Targeting Offline Activatable: Improved Medium Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACMediumRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "-2.0",
+            "modType": "System.Single"
+          }
+        },
+        {
+          "durationData": {
+            "duration": -1,
+            "stackLimit": -1
+          },
+          "targetingData": {
+            "effectTriggerType": "Passive",
+            "effectTargetType": "Creator",
+            "showInTargetPreview": false,
+            "showInStatusPanel": false
+          },
+          "effectType": "StatisticEffect",
+          "nature": "Buff",
+          "Description": {
+            "Id": "RangeBracketBonusAccSR",
+            "Name": "Quirk Variable Range Targeting Offline Activatable: Improved Short Range Accuracy",
+            "Details": "range bracket bonus accuracy",
+            "Icon": "uixSvgIcon_ability_precisionstrike"
+          },
+          "statisticData": {
+            "abilifierId": "AccuracyModifierFilter",
+            "statName": "CACShortRangeAccuracyMod",
+            "operation": "Float_Add",
+            "modValue": "-2.0",
+            "modType": "System.Single"
+          }
+        }
+      ],
+      "Linkage": {
+        "OnActivate": {
+          "Activate": [],
+          "Deactivate": []
+        },
+        "OnDeactivate": {
+          "Activate": [],
+          "Deactivate": []
+        }
+      }
+    },
+    "Flags": [
+      "not_broken",
+      "not_destroyed",
+      "default",
+      "ignore_damage",
+      "no_salvage"
+    ]
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "UkrExportResource",
+    "Model": "Adv Targeter Mk.1",
+    "UIName": "Variable Range Targeting",
+    "Id": "Quirk_VariableRangeTargeting",
+    "Name": "Variable Range Targeting",
+    "Details": "Variable Range Targeting System. Two modes \"Long Range\" and \"Short Range\" each provides penalties to the opposite half of the range spectrum.  \n\n <b><color=#ffcc00>Range brackets are weapon based try to keep weapons of similar range on the mech for simplicity.  Push button to switch between Long and Short Range Modes.</color></b>",
+    "Icon": "uixSvgIcon_equipment_Comms"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Auras": [
+    {
+      "Id": "MINEDETECTIONAURA",
+      "Name": "Minesweeper",
+      "ReticleColor": "white",
+      "LineType": "Dots",
+      "isSpining": false,
+      "MinefieldDetector": true,
+      "HideOnNotSelected": true,
+      "Range": 90,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false,
+      "IsNegativeToEnemy": false,
+      "ownerVFX": [],
+      "targetVFX": [],
+      "removeOwnerVFX": [],
+      "removeTargetVFX": [],
+      "ownerSFX": [],
+      "targetSFX": [],
+      "removeOwnerSFX": [],
+      "removeTargetSFX": [],
+      "statusEffects": [			
+			{
+			  "durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			  },
+			  "targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": true,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			  },
+			  "effectType": "StatisticEffect",
+			  "Description": {
+				"Id": "MineFieldDetection",
+				"Name": "Active Probe (Passive)",
+				"Details": "Detects Minefields",
+				"Icon": "uixSvgIcon_status_ECM-ghost"
+			  },
+			  "statisticData": {
+				"statName": "MinefieldDetection",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			  },
+			  "nature": "Buff"
+			}
+	  ]
+    }
+  ],  
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ADVANCED_SENSORS",
+        "Name": "Advanced Sensors",
+        "Details": "Provides detailed information on enemy units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ADVANCED_SENSORS",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ECM_SHIELD",
+        "Name": "IFFJAMMER2",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ECM_SHIELD",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_PROBE_CARRIER",
+        "Name": "Active Probe (Passive)",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_PROBE_CARRIER",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock",
+      "LootMagnetBlacklist"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

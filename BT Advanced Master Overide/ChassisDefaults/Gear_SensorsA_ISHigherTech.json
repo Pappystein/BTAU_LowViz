@@ -1,0 +1,225 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions":  [
+        "AdvancedSensors: 3",
+        "NightVision",
+        "IsSensorsA",
+		"IFFJammer: 2"
+      ],
+    "Flags": [
+        "default",
+        "not_broken",
+        "autorepair"
+      ],
+
+    "Lootable":  "lootable_SensorsA_IS_Hightech"
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": true,
+    "Manufacturer": "UBM/IBM",
+    "Model": "Standard",
+    "UIName": "Sensors Improved",
+    "Id": "Gear_SensorsA_ISHigherTech",
+    "Name": "Cockpit Sensors",
+    "Details": "A higher tech sensor for modern production units. Grants extra visibility on the battlefield.",
+    "Icon": "uixSvgIcon_equipment_Comms"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Auras": [
+    {
+      "Id": "MINEDETECTIONAURA",
+      "Name": "Minesweeper",
+      "ReticleColor": "white",
+      "LineType": "Dots",
+      "isSpining": false,
+      "MinefieldDetector": true,
+      "HideOnNotSelected": true,
+      "Range": 90,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false,
+      "IsNegativeToEnemy": false,
+      "ownerVFX": [],
+      "targetVFX": [],
+      "removeOwnerVFX": [],
+      "removeTargetVFX": [],
+      "ownerSFX": [],
+      "targetSFX": [],
+      "removeOwnerSFX": [],
+      "removeTargetSFX": [],
+      "statusEffects": [			
+			{
+			  "durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			  },
+			  "targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": true,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			  },
+			  "effectType": "StatisticEffect",
+			  "Description": {
+				"Id": "MineFieldDetection",
+				"Name": "Active Probe (Passive)",
+				"Details": "Detects Minefields",
+				"Icon": "uixSvgIcon_status_ECM-ghost"
+			  },
+			  "statisticData": {
+				"statName": "MinefieldDetection",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			  },
+			  "nature": "Buff"
+			}
+	  ]
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ADVANCED_SENSORS",
+        "Name": "Advanced Sensors",
+        "Details": "Provides detailed information on enemy units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ADVANCED_SENSORS",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ECM_SHIELD",
+        "Name": "IFFJAMMER2",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ECM_SHIELD",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_PROBE_CARRIER",
+        "Name": "Active Probe (Passive)",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_PROBE_CARRIER",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

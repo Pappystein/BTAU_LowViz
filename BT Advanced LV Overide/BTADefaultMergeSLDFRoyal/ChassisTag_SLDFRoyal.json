@@ -1,0 +1,20 @@
+{
+	"TargetType": "ChassisDef",  
+    "TargetIDs": [
+		"chassisdef_stinger_STG-A1",
+		"chassisdef_wasp_WSP-100B",
+		"chassisdef_wasp_WSP-100",
+		"chassisdef_excalibur_EXC-B2b"
+		
+	
+	
+	
+	],
+	    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "RoyalMech"
+        }
+    ]
+}

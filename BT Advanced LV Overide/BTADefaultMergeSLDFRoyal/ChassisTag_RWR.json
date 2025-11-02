@@ -1,0 +1,48 @@
+{
+	"TargetType": "ChassisDef",  
+    "TargetIDs": [
+		"chassisdef_dragoon_AEM-001A",
+		"chassisdef_dragoon_AEM-002A",
+		"chassisdef_dragoon_AEM-002",
+		"chassisdef_dragoon_AEM-003",
+		"chassisdef_dragoon_AEM-004X",
+		"chassisdef_dragoon_AEM-005X",
+		"chassisdef_dragoon_AEM-004",
+		"chassisdef_dragoon_AEM-01",
+		"chassisdef_jackrabbit_JKR-8T",
+		"chassisdef_jackrabbit_JKR-8Hz",
+		"chassisdef_jackrabbit_JKR-9A",
+		"chassisdef_jackrabbit_JKR-9R",
+		"chassisdef_phoenix_PX-3N",
+		"chassisdef_phoenix_PX-3R",
+		"chassisdef_phoenix_PX-4N",
+		"chassisdef_phoenix_PX-4A",
+		"chassisdef_phoenix_PX-4R",
+		"chassisdef_phoenix_PX-6A",
+		"chassisdef_phoenix_PX-6X",
+		"chassisdef_rampage_RMP-2G",
+		"chassisdef_rampage_RMP-4A",
+		"chassisdef_rampage_RMP-3A",
+		"chassisdef_rampage_RMP-4G",
+		"chassisdef_rampage_RMP-5A",
+		"chassisdef_rampage_RMP-5G",
+		"chassisdef_riflemaniii_RF2-B",
+		"chassisdef_riflemaniii_RF2-L",
+		"chassisdef_riflemaniii_RF2-A",
+		"chassisdef_riflemaniii_RF2-M",
+		"chassisdef_screamer_SCR-1A-LAM",
+		"chassisdef_screamer_SCR-1X-LAM",
+		"chassisdef_screamer_SCR-2X-LAM",
+		"chassisdef_screamer_SCR-3X-LAM"
+	
+	
+	
+	],
+	    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "RWR"
+        }
+    ]
+}

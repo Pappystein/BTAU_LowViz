@@ -1,0 +1,127 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "BonusDescriptions": [
+        "AccuracyER: -1",
+        "AccuracyLR: -1",
+        "FCS"
+      ],
+    "Flags": [
+        "default",
+        "not_broken", 
+        "autorepair"
+      ],
+    "Lootable":  "lootable_SensorsB_Primitive_Standard"
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "Standard",
+    "UIName": "FCS Primitive",
+    "Id": "Gear_SensorsB_Primitive_Standard",
+    "Name": "Primitive FCS",
+    "Details": "The FCS of a Primitive Battlemech. Primitive mechs are less accurate at range and multi-shot weapons have a higher jam chance.  A Mech's Fire Control System coordinates and analyzes the vast amount of information brought in by Sensors in order to track units, generate firing solutions and hit targets.",
+    "Icon": "AdvancedTC"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "TCRecoil",
+        "Name": "FCS Adv TC: Decreased Jam Chance",
+        "Details": "Called Shots twice as reliable",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "CACModJammingChance",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },  
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccER",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACExtraLongRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccLR",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACLongRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "1.0",
+        "modType": "System.Single"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

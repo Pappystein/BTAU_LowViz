@@ -1,0 +1,22 @@
+{
+    "TargetType": "ChassisDef",	
+    "TargetIDs": [
+		"chassisdef_marauder_MAD-1R",
+		"chassisdef_exterminator_EXT-4C",
+		"chassisdef_firefly_FFL-3A",
+		"chassisdef_firefly_FFL-3SLE",
+		"chassisdef_hoplite_HOP-4B",
+		"chassisdef_hoplite_HOP-4C",
+		"chassisdef_hunchback_HBK-2G",
+		"chassisdef_thug_THG-11C",
+		"chassisdef_spector_SPR-4F"
+		
+	],
+    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "SLDFMech"
+        }
+    ]
+}

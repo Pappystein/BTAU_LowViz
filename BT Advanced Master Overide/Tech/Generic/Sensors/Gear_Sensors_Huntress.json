@@ -1,0 +1,306 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
+      }
+    },
+    "BonusDescriptions":[
+        "Range: 10%",
+        "MinRange: -50%",
+		"AdvancedSensors: 3",
+		"NightVision"
+      ],
+    "Flags":  [
+        "not_broken"
+      ]
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 500000,
+    "Rarity": 9,
+    "Purchasable": false,
+    "Manufacturer": "Garret",
+    "Model": "SatCom",
+    "UIName": "Sensors Range",
+    "Id": "Gear_Sensors_Huntress",
+    "Name": "Huntress Weapons Computer",
+    "Details": "The Garret SatCom 'Huntress' Weapons Sensor Suite allows to effectively fire Weapons at a greater range.",
+    "Icon": "uixSvgIcon_equipment_Comms"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1.5,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangedWeaponSensors",
+        "Name": "C3M Probe",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "MinRange",
+        "operation": "Float_Multiply",
+        "modValue": "0.5",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangedWeaponSensors1",
+        "Name": "C3M Probe",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "ShortRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangedWeaponSensors2",
+        "Name": "C3M Probe",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "MediumRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangedWeaponSensors3",
+        "Name": "C3M Probe",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LongRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangedWeaponSensors3",
+        "Name": "C3M Probe",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "MaxRange",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ADVANCED_SENSORS",
+        "Name": "Advanced Sensors",
+        "Details": "Provides detailed information on enemy units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ADVANCED_SENSORS",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ECM_SHIELD",
+        "Name": "IFFJAMMER2",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ECM_SHIELD",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_PROBE_CARRIER",
+        "Name": "Active Probe (Passive)",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_PROBE_CARRIER",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

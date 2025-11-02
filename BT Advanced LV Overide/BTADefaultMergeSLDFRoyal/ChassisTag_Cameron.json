@@ -1,0 +1,50 @@
+{
+	"TargetType": "ChassisDef",  
+    "TargetIDs": [
+		"chassisdef_banshee_BNC-6R",
+		"chassisdef_osprey_OSP-35",
+		"chassisdef_champion_CHP-3R",
+		"chassisdef_crusader_CRD-5R",
+		"chassisdef_excalibur_EXC-B1",
+		"chassisdef_griffin_GRF-6R",
+		"chassisdef_kingcrab_KGC-011",
+		"chassisdef_lament_LMT-2R",
+		"chassisdef_lament_LMT-2RL",
+		"chassisdef_lament_LMT-1R",
+		"chassisdef_lament_LMT-3R",
+		"chassisdef_lament_LMT-4R",
+		"chassisdef_lament_LMT-5R",
+		"chassisdef_locust_LCT-5R",
+		"chassisdef_mackie_MSK-II-10H",
+		"chassisdef_mackie_MSK-11R",
+		"chassisdef_mackie_MSK-II-11H",
+		"chassisdef_mackie_MSK-II-10R",
+		"chassisdef_marauder_MAD-6R",
+		"chassisdef_orion_ON2-R",
+		"chassisdef_ostroc_OSR-4R",
+		"chassisdef_ostsol_OTL-6R",
+		"chassisdef_princecrab_PRC-4G",
+		"chassisdef_princecrab_PRC-4B",
+		"chassisdef_princecrab_PRC-5A",
+		"chassisdef_princecrab_PRC-5X",
+		"chassisdef_shadowhawk_SHD-5R",
+		"chassisdef_shogun_SHG-3H",
+		"chassisdef_stinger_STG-7R",
+		"chassisdef_striker_STC-3H",
+		"chassisdef_striker_STC-3C",
+		"chassisdef_thunderbolt_TDR-8R",
+		"chassisdef_victor_VTR-9R",
+		"chassisdef_warhammer_WHM-7R",
+		"chassisdef_wasp_WSP-3R"	
+	
+	
+	
+	],
+	    "Instructions": [
+        {
+            "JSONPath": "ChassisTags.items[0]",
+            "Action": "ArrayAddBefore",
+            "Value": "Cameron"
+        }
+    ]
+}

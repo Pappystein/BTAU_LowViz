@@ -1,0 +1,121 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "BonusDescriptions":  [
+        "FCS"
+      ],
+    "Flags":  [
+        "not_broken"
+      ]
+  },
+  "Description": {
+    "Cost": 9750000,
+    "Rarity": 0,
+    "Purchasable": false,
+    "Manufacturer": "Generic",
+    "Model": "Standard",
+    "UIName": "FCS Reduced Jamming",
+    "Id": "Gear_SensorsB_AntiJam_Standard",
+    "Name": "FCS Reduced Jamming",
+    "Details": "This improvement on the standard Fire control system for Battlemechs, introduces some anti-jam technologies for when firing burst weapons that can have feed jams.  It does so by maintaining a smooth movement profile on the mech while feeding ammunition.",
+    "Icon": "AdvancedTC"
+  },
+  "BonusValueA": "Reduced AC Jam",
+  "BonusValueB": "Reduced Sprint",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 1,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Zoom Vision Effect",
+        "Name": "FCS ScanOptics: Zoom Vision",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_ZOOM_VISION",
+        "operation": "Set",
+        "modValue": "-1_0_27",
+        "modType": "System.String"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "TCRecoil",
+        "Name": "FCS Adv TC: Decreased Jam Chance",
+        "Details": "Called Shots twice as reliable",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "CACModJammingChance",
+        "operation": "Float_Multiply",
+        "modValue": "0.8",
+        "modType": "System.Single",
+        "targetCollection": "Weapon"
+      }
+    },
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInStatusPanel": false
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "MASCSprint",
+				"Name": "ChargerSprint",
+				"Details": "MORE SPEED.",
+				"Icon": "uixSvgIcon_run_n_gun"
+			},
+			"statisticData": {
+				"statName": "CBTBE_RunMultiMod",
+				"operation": "Float_Add",
+				"modValue": "-0.2",
+				"modType": "System.Single"
+			},
+			"nature": "Buff"
+		}	
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

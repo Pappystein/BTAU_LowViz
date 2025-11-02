@@ -1,0 +1,237 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "WorkOrderCosts": {
+      "Install": {
+        "TechCost": "0.1 * [[Chassis.Tonnage]]",
+        "CBillCost": "1.15 * [[Chassis.Tonnage]]"
+      }
+    },
+    "BonusDescriptions": [
+        "CalledShot: 10%",
+        "AccuracyER: +2",
+        "AccuracyLR: +2",
+        "AccuracyMR: +1",
+        "AccuracyMin: +2",
+        "NightVision",
+        "ThermalVision: 1, 20, 300",
+        "FCS"
+      ],
+    "Flags": [
+        "not_broken"
+      ]
+  },
+  "StatName": null,
+  "RelativeModifier": 0,
+  "AbsoluteModifier": 0,
+  "Description": {
+    "Cost": 3250000,
+    "Rarity": 8,
+    "Purchasable": true,
+    "Manufacturer": "Doering Electronics",
+    "Model": "Celestial Optical Comparitor Mk7",
+    "UIName": "FCS Violator",
+    "Id": "Gear_FCS_Violator",
+    "Name": "Weapons Computer",
+    "Details": "The Celestial Optical Comparitor Mk7 is an attempt to integrate the advanced Celestial Fire Control System onto non Celestial mechs for the Word of Blake.   While having comparable performance to the Mk3, the Mk7 is naturally heavier because of the use of a generic plug-n-pray interface associated with most cockpit electronics upgrades.   This FCS is rarely used as a result of the extra mass.",
+    "Icon": "uixSvgIcon_equipment_Rangefinder"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 2,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "TCCALLSHOT",
+        "Name": "Improved Called Shot",
+        "Details": "Called Shots twice as reliable",
+        "Icon": "uixSvgIcon_ability_mastertactician"
+      },
+      "statisticData": {
+        "statName": "CalledShotBonusMultiplier",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccER",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACExtraLongRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccLR",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACLongRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccMR",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACMediumRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-1.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "RangeBracketBonusAccSR",
+        "Name": "Bonus Accuracy at range",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "CACMinRangeAccuracyMod",
+        "operation": "Float_Add",
+        "modValue": "-2.0",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Heat Vision Effect",
+        "Name": "Bonus Accuracy against heat",
+        "Details": "heat bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_HEAT_VISION",
+        "operation": "Set",
+        "modValue": "-1_20_300",
+        "modType": "System.String"
+      }
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

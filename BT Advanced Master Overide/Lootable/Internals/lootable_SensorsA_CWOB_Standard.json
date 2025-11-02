@@ -1,0 +1,287 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsA"
+      }
+    ],
+    "BonusDescriptions": [
+        "Sensors: +10%",
+        "Sight: +10%",
+        "AdvancedSensors: 2",
+        "NightVision",
+        "IsSensorsA",
+		"IFFJammer: 2"
+      ],
+    "Flags": [
+        "not_broken"
+      ]
+  },
+  "Description": {
+    "Cost": 250000,
+    "Rarity": 20,
+    "Purchasable": true,
+    "Manufacturer": "ComGuard",
+    "Model": "Standard",
+    "UIName": "ComGuard Basic Sensor Suite",
+    "Id": "lootable_SensorsA_CWOB_Standard",
+    "Name": "Comguard Sensors",
+    "Details": "A Basic ComGuard Cockpits Sensor Package, is a step above contemporary Inner Sphere systems. A Basic Sensors Suite. Thermal imaging, light amplification, radar and magnetic anomaly sensors are all among the primary sensors used by combat vehicles, supplemented by seismic sensors, motion detectors, chemical analyzers and a multitude of others.",
+    "Icon": "uixSvgIcon_equipment_Comms"
+  },
+  "BonusValueA": "",
+  "BonusValueB": "",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0.5,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "Auras": [
+    {
+      "Id": "MINEDETECTIONAURA",
+      "Name": "Minesweeper",
+      "ReticleColor": "white",
+      "LineType": "Dots",
+      "isSpining": false,
+      "MinefieldDetector": true,
+      "HideOnNotSelected": true,
+      "Range": 90,
+      "RemoveOnSensorLock": false,
+      "State": "Persistent",
+      "ApplySelf": true,
+      "AllyStealthAffection": "None",
+      "EnemyStealthAffection": "None",
+      "IsPositiveToAlly": false,
+      "IsNegativeToEnemy": false,
+      "ownerVFX": [],
+      "targetVFX": [],
+      "removeOwnerVFX": [],
+      "removeTargetVFX": [],
+      "ownerSFX": [],
+      "targetSFX": [],
+      "removeOwnerSFX": [],
+      "removeTargetSFX": [],
+      "statusEffects": [			
+			{
+			  "durationData": {
+				"duration": -1,
+				"stackLimit": -1
+			  },
+			  "targetingData": {
+				"effectTriggerType": "Passive",
+				"specialRules": "NotSet",
+				"effectTargetType": "Creator",
+				"range": 0.0,
+				"forcePathRebuild": false,
+				"forceVisRebuild": true,
+				"showInTargetPreview": false,
+				"showInStatusPanel": false
+			  },
+			  "effectType": "StatisticEffect",
+			  "Description": {
+				"Id": "MineFieldDetection",
+				"Name": "Active Probe (Passive)",
+				"Details": "Detects Minefields",
+				"Icon": "uixSvgIcon_status_ECM-ghost"
+			  },
+			  "statisticData": {
+				"statName": "MinefieldDetection",
+				"operation": "Float_Add",
+				"modValue": "1",
+				"modType": "System.Single"
+			  },
+			  "nature": "Buff"
+			}
+	  ]
+    }
+  ],
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ADVANCED_SENSORS",
+        "Name": "Advanced Sensors",
+        "Details": "Provides detailed information on enemy units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ADVANCED_SENSORS",
+        "operation": "Int_Add",
+        "modValue": "3",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_ECM_SHIELD",
+        "Name": "IFFJAMMER2",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_ECM_SHIELD",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0.0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": true,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "LV_PROBE_CARRIER",
+        "Name": "Active Probe (Passive)",
+        "Details": "Reduces effectiveness of stealthed and ECM shielded units",
+        "Icon": "uixSvgIcon_status_ECM-ghost"
+      },
+      "statisticData": {
+        "statName": "LV_PROBE_CARRIER",
+        "operation": "Int_Add",
+        "modValue": "2",
+        "modType": "System.Int32"
+      },
+      "nature": "Buff"
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "BAProbe",
+        "Name": "HP-CockpitSensors-Sensor",
+        "Details": "Increased Sight/Sensors",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "SensorDistanceAbsolute",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "triggerLimit": 0,
+        "extendDurationOnTrigger": 0,
+        "specialRules": "NotSet",
+        "effectTargetType": "Creator",
+        "range": 0,
+        "forcePathRebuild": false,
+        "forceVisRebuild": false,
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "HP-CockpitSensors-Spot",
+        "Name": "SPOTTING DISTANCE INCREASED",
+        "Details": "Increases spotting distance by 50m.",
+        "Icon": "uixSvgIcon_equipment_Comms"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "SpotterDistanceAbsolute",
+        "operation": "Float_Multiply",
+        "modValue": "1.1",
+        "modType": "System.Single"
+      }
+    },
+    {
+      "durationData": {
+        "duration": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator"
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "NightVision",
+        "Name": "Night Vision Mode",
+        "Details": "PASSIVE: Enables Night Vision.",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "statisticData": {
+        "statName": "LV_NIGHT_VISION",
+        "operation": "Set",
+        "modValue": "true",
+        "modType": "System.Boolean"
+      },
+      "nature": "Buff"
+    }
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}

@@ -1,0 +1,329 @@
+{
+    "Custom": {
+        "Category": [
+           {"CategoryID": "SensorsA"}
+        ],
+        "WorkOrderCosts": {
+            "Install": {
+                "TechCost": "[[Chassis.Tonnage]]/10",
+                "CBillCost": "[[Chassis.Tonnage]] * 1.1"
+            }
+        },
+        "BonusDescriptions": {
+            "Bonuses": [
+				"Accuracy: +1",
+				"Sensors: +5%",
+				"Sight: +5%",
+				"AdvancedSensors: 2"				
+            ]
+        }
+    },
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 400000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Apocalypse Armaments",
+        "Model" : "OLTTS-1",
+        "UIName" : "Omni-Lock TTS",
+        "Id" : "Gear_TargetingTrackingSystem_OmniLockTTS",
+        "Name" : "Omni-Lock TTS  ",
+        "Details" : "Modified Targeting System improving accuracy for all weapon platforms.",
+        "Icon" : "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitMissile-T3",
+                "Name" : "Missile WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Missile weapon attacks have their hit improved by 5.",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-5.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitBallistic-T3",
+                "Name" : "BALLISTIC WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Ballistic weapon attacks have their hit improved by 5.",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-5.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Ballistic",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Attack_ToHitEnergy-T3",
+                "Name" : "ENERGY WEAPON HIT CHANCE IMPROVED",
+                "Details" : "Energy weapon attacks have their hit improved by 5.",
+                "Icon" : "uixSvgIcon_equipment_TTS"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-5.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Energy",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-IndirectAccuracy_Add-T3",
+                "Name" : "MISSILE WEAPON INDIRECT HIT CHANCE IMPROVED",
+                "Details" : "Indirect fire penalties reduced by 5.",
+                "Icon" : "uixSvgIcon_equipment_Cockpit"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "ToHitIndirectModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-5.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "Missile",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        },
+		{
+            "durationData": {
+                "duration": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "TCRecoil",
+                "Name": "Improved Recoil",
+                "Details": "Recoil reduction",
+                "Icon": "uixSvgIcon_ability_mastertactician"
+            },
+            "statisticData": {
+                "statName": "RefireModifier",
+                "operation": "Int_Add",
+                "modValue": "-2",
+                "modType": "System.Int32",
+                "targetCollection": "Weapon"
+            }
+        },
+		        {
+            "durationData": {
+                "duration": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "TC-Breaching",
+                "Name": "BREACHING SHOT",
+                "Details": "PASSIVE: Attacking with a single weapon ignores COVER and GUARDED on the target.",
+                "Icon": "uixSvgIcon_ability_precisionstrike"
+            },
+            "statisticData": {
+                "statName": "PrecisionStrike",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        },
+        {
+            "durationData": {
+                "duration": -1
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "effectTargetType": "Creator"
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "TC-CalledShot",
+                "Name": "True Called Shot",
+                "Details": "PASSIVE: Making a Precision Strike gives the Called Shot interface.",
+                "Icon": "uixSvgIcon_ability_precisionstrike"
+            },
+            "statisticData": {
+                "statName": "IRTCalledShotAlwaysAllow",
+                "operation": "Set",
+                "modValue": "true",
+                "modType": "System.Boolean"
+            },
+            "nature": "Buff"
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

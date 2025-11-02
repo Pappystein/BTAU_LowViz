@@ -1,0 +1,75 @@
+{
+  "Custom": {
+    "Category": [
+      {
+        "CategoryID": "SensorsB"
+      }
+    ],
+    "BonusDescriptions":  [
+        "FCS"
+      ],
+    "Flags":  [
+        "default",
+        "not_broken", 
+        "autorepair"
+      ],
+    "Lootable": "lootable_SensorsB_IS_Hightech"
+  },
+  "Description": {
+    "Cost": 0,
+    "Rarity": 99,
+    "Purchasable": false,
+    "Manufacturer": "Sparrow",
+    "Model": "Standard",
+    "UIName": "Improved FCS",
+    "Id": "Gear_SensorsB_HigherTech",
+    "Name": "Improved FCS",
+    "Details": "Advanced technology FCS for the Innersphere.",
+    "Icon": "AdvancedTC"
+  },
+  "BonusValueA": "Zoom Vision",
+  "BonusValueB": "Heat Vision",
+  "ComponentType": "Upgrade",
+  "ComponentSubType": "NotSet",
+  "PrefabIdentifier": "",
+  "BattleValue": 0,
+  "InventorySize": 1,
+  "Tonnage": 0,
+  "AllowedLocations": "Head",
+  "DisallowedLocations": "All",
+  "CriticalComponent": false,
+  "statusEffects": [
+    {
+      "durationData": {
+        "duration": -1,
+        "stackLimit": -1
+      },
+      "targetingData": {
+        "effectTriggerType": "Passive",
+        "effectTargetType": "Creator",
+        "showInTargetPreview": false,
+        "showInStatusPanel": false
+      },
+      "effectType": "StatisticEffect",
+      "Description": {
+        "Id": "Zoom Vision Effect",
+        "Name": "FCS ScanOptics: Zoom Vision",
+        "Details": "range bracket bonus accuracy",
+        "Icon": "uixSvgIcon_ability_precisionstrike"
+      },
+      "nature": "Buff",
+      "statisticData": {
+        "statName": "LV_ZOOM_VISION",
+        "operation": "Set",
+        "modValue": "-1_0_27",
+        "modType": "System.String"
+      }
+    }  
+  ],
+  "ComponentTags": {
+    "items": [
+      "component_type_stock"
+    ],
+    "tagSetSourceFile": ""
+  }
+}
