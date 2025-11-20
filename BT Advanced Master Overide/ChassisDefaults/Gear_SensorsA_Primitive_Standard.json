@@ -154,7 +154,7 @@
       "statisticData": {
         "statName": "SensorDistanceAbsolute",
         "operation": "Float_Multiply",
-        "modValue": "0.75",
+        "modValue": "0.9",
         "modType": "System.Single"
       }
     },
@@ -180,7 +180,7 @@
       "statisticData": {
         "statName": "SpotterDistanceAbsolute",
         "operation": "Float_Multiply",
-        "modValue": "0.75",
+        "modValue": "0.9",
         "modType": "System.Single"
       }
     }

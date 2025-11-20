@@ -93,7 +93,7 @@
       "statisticData": {
         "statName": "SensorDistanceAbsolute",
         "operation": "Float_Multiply",
-        "modValue": "0.8",
+        "modValue": "0.75",
         "modType": "System.Single"
       }
     },

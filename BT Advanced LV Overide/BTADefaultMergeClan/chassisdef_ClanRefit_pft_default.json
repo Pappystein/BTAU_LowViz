@@ -9,7 +9,12 @@
 		"chassisdef_warhammer_WHM_C",
 		"chassisdef_victor_VTR_C",
 		"chassisdef_thunderbolt_TDR_C",
-		"chassisdef_maelstrom_MTR-RB"
+		"chassisdef_maelstrom_MTR-RB",
+		"mechdef_mercuryii_MCY-100",
+		"mechdef_mercuryii_MCY-110",
+		"mechdef_mercuryii_MCY-120",
+		"mechdef_mercury_MCY-89",
+		"mechdef_mercury_MCY-90"
 		
 		
 	],

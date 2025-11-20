@@ -9,7 +9,8 @@
 		"chassisdef_hoplite_HOP-4C",
 		"chassisdef_hunchback_HBK-2G",
 		"chassisdef_thug_THG-11C",
-		"chassisdef_spector_SPR-4F"
+		"chassisdef_spector_SPR-4F",
+		"mechdef_mercury_MCY-99"
 		
 	],
     "Instructions": [
