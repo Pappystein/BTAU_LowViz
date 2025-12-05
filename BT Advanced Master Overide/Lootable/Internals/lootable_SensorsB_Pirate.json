@@ -14,7 +14,7 @@
 		"Lootable": "lootable_SensorsB_Pirate"
 	},
 	"Description": {
-		"Cost": 0,
+		"Cost": 100,
 		"Rarity": 0,
 		"Purchasable": false,
 		"Manufacturer": "Generic",
