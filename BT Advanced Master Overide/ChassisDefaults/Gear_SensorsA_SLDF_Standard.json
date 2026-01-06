@@ -6,12 +6,12 @@
       }
     ],
     "BonusDescriptions":  [
-        "Sensors: +4%",
-        "Sight: +4%",
-        "AdvancedSensors: 4",
+        "Sensors: +3%",
+        "Sight: +3%",
+        "AdvancedSensors: 3",
         "NightVision",
         "IsSensorsA",
-		"IFFJammer: 3"
+		"IFFJammer: 2"
       ],
     "Flags": [
         "default",

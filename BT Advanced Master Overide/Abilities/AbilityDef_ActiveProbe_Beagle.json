@@ -1,48 +1,14 @@
 {
-	"Description": {
-		"Id": "AbilityDef_ActiveProbe_Beagle",
-		"Name": "ACTIVE PROBE PING Beagle",
-		"Details": "ACTION: Perform a Sensor Lock on all enemies within [FloatParam1] meters, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.",
-		"Icon": "uixSvgIcon_action_sensorlock"
+	"Description" : {
+		"Id" : "AbilityDef_ActiveProbe_Beagle",
+		"Name" : "ACTIVE PROBE PING Beagle",
+		"Details" : "ACTION: Perform a Sensor Lock on all enemies within [FloatParam1] meters, and generates [FloatParam2] Heat for the user. There is a [ActivationCooldown] round cooldown.",
+		"Icon" : "uixSvgIcon_action_sensorlock"
 	},
-	"ActivationTime": "ConsumedByFiring",
-	"Targeting": "ActiveProbe",
-	"ActivationCooldown": 4,
+	"ActivationTime" : "ConsumedByFiring",
+    "Targeting" : "ActiveProbe",
+    "ActivationCooldown" : 4,
 	"FloatParam1": 240.0,
 	"FloatParam2": 1.0,
-	"StringParam1": "Active Probe is unavailable.",
-	"StatusEffect": [
-		{
-			"durationData": {
-				"duration": 1,
-				"ticksOnActivations": true,
-				"useActivationsOfTarget": true,
-				"stackLimit": 1
-			},
-			"targetingData": {
-				"effectTriggerType": "Passive",
-				"specialRules": "NotSet",
-				"effectTargetType": "Creator",
-				"range": 0.0,
-				"forcePathRebuild": false,
-				"forceVisRebuild": true,
-				"showInTargetPreview": false,
-				"showInStatusPanel": false
-			},
-			"effectType": "StatisticEffect",
-			"Description": {
-				"Id": "LV_ADVANCED_SENSORS",
-				"Name": "Advanced Sensors",
-				"Details": "Provides detailed information on enemy units",
-				"Icon": "uixSvgIcon_status_ECM-ghost"
-			},
-			"statisticData": {
-				"statName": "LV_ADVANCED_SENSORS",
-				"operation": "Int_Add",
-				"modValue": "3",
-				"modType": "System.Int32"
-			},
-			"nature": "Buff"
-		}
-	]
+	"StringParam1": "Active Probe is unavailable."
 }

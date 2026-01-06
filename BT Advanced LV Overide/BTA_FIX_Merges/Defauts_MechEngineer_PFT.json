@@ -289,16 +289,6 @@
 							"Type": "Upgrade"
 						}
 					]
-				},
-				{
-					"UnitType": "MarianMech",
-					"Defaults": [
-						{
-							"Location": "Head",
-							"DefID": "Gear_SensorsA_Marian_Standard",
-							"Type": "Upgrade"
-						}
-					]
 				}
 			]
 		},
