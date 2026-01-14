@@ -132,6 +132,16 @@
 							"Type": "Upgrade"
 						}
 					]
+				},
+				{
+					"UnitType": "Revarian",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_Revarian",
+							"Type": "Upgrade"
+						}
+					]
 				}
 			]
 		},
@@ -266,6 +276,16 @@
 						{
 							"Location": "Head",
 							"DefID": "Gear_SensorsA_ISHigherTech",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "Revarian",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_Sensors_Revarian",
 							"Type": "Upgrade"
 						}
 					]
