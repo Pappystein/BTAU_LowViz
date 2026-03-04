@@ -18,23 +18,14 @@
 	],
 
 
-	"Manifest": [
-		{ "Type": "UpgradeDef", "Path": "Tech/Hero/AdvancedDevices" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Armor" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Hero/EWAR" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Firecontrol" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Hero/Sensors" },			
+	"Manifest": [	
 		{ "Type": "UpgradeDef", "Path": "Tech/Generic/AdvancedDevices" },		
 		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Firecontrol" },	
 		{ "Type": "UpgradeDef", "Path": "Tech/Generic/Sensors" },	
-		{ "Type": "UpgradeDef", "Path": "Tech/Generic/EWAR" },		
-		{ "Type": "UpgradeDef", "Path": "Tech/DefaultItems" },			
-        { "Type": "JumpJetDef", "Path": "Tech/JumpJets" },
-        { "Type": "HeatSinkDef", "Path": "Tech/HeatSinks" },
+		{ "Type": "UpgradeDef", "Path": "Tech/Generic/EWAR" },
 		{ "Type": "AmmunitionBoxDef", "Path": "Tech/Ammunition/AmmoBoxes" },	
 		{ "Type": "AmmunitionDef", "Path": "Tech/Ammunition/Ammo" },
 		{ "Type": "WeaponDef", "Path": "Tech/Generic/Weapons" },
-		{ "Type": "WeaponDef", "Path": "Tech/CommunityContent/Weapons" },
 		{ "Type": "UpgradeDef", "Path": "ChassisDefaults" },
 		{ "Type": "UpgradeDef",	"Path": "Lootable/Internals" },
 		{ "Type": "UpgradeDef",	"Path": "Lootable/Actuators" },
