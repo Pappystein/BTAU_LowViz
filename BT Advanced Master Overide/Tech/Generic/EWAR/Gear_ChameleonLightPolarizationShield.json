@@ -169,7 +169,7 @@
                     "statisticData": {
                         "statName": "SpottingVisibilityMultiplier",
                         "operation": "Float_Multiply",
-                        "modValue": "0.5",
+                        "modValue": "0.1",
                         "modType": "System.Single"
                     }
                 },
