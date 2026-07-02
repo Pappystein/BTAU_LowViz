@@ -2,7 +2,14 @@
 	"TargetIDs": [
 		"mechdef_griffin_GRF-3S",
 		"mechdef_nagual_X1-NG-LAM",
-		"mechdef_wasp_WSP-YJ"
+		"mechdef_wasp_WSP-YJ",
+		"mechdef_kinzhal_KZH-4D",
+		"mechdef_kinzhal_KZH-4DD",
+		"mechdef_kinzhal_KZH-4L",
+		"mechdef_knight_KNT-2D",
+		"mechdef_knight_KNT-2V",
+		"mechdef_knight_KNT-3G",
+		"mechdef_knight_KNT-3S"
 	],
 	"Instructions": [
 		{

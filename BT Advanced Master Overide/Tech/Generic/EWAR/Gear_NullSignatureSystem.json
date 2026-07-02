@@ -198,6 +198,9 @@
 			],
 			"offlineStatusEffects": []
 		},
+		"CriticalEffects": {
+			"LinkedStatisticName": "NULLSIG System"
+		},		
 		"Linked": {
 			"Links": [
 				{

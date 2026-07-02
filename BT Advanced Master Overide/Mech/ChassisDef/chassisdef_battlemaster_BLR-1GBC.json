@@ -1,4 +1,11 @@
 {
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "BattleMaster",
+			"Exclude": false,
+			"Include": true
+		}
+	},
 	"Description": {
 		"Cost": 14600000,
 		"Rarity": 5,

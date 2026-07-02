@@ -257,6 +257,9 @@
 				}
 			]
 		},
+		"CriticalEffects": {
+			"LinkedStatisticName": "Stealth System"
+		},
 		"ArmorRepair": {
 			"ArmorTPCost": 1.25,
 			"ArmorCBCost": 1.35

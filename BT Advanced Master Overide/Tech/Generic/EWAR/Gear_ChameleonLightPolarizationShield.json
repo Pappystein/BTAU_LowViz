@@ -15,6 +15,9 @@
             "not_broken",
 			"no_salvage"
         ],
+		"CriticalEffects": {
+			"LinkedStatisticName": "Chameleon System"
+		},		
         "Linked": {
             "Links": [
                 {

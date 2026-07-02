@@ -1,0 +1,348 @@
+{
+	"Custom": {
+		"AssemblyVariant": {
+			"PrefabID": "Exterminator",
+			"Exclude": false,
+			"Include": true
+		}
+	},
+	"Description": {
+		"Cost": 9200000,
+		"Rarity": 3,
+		"Purchasable": true,
+		"Manufacturer": "",
+		"Model": "",
+		"UIName": "Exterminator",
+		"Id": "chassisdef_exterminator_EXT-5W",
+		"Name": "Exterminator",
+		"Details": "For the Word of Blake, the Exterminator EXT-5W was a minor upgrade on the already produced EXT-4C.   However with the change from NSS/CLPS to Void Signature system, as well as the inclusion of the highly questionable Endo-Composite structure sourced by means bordering on piracy, the EXT-5W gained some unique benefits, most notable more room to build out its loadout.\n\n <b><color=#e51717>Pafftek Industries Sub-mod</color></b>",
+		"Icon": "uixTxrIcon_exterminator"
+	},
+	"MovementCapDefID": "movedef_thunderbolt_TDR-5S",
+	"PathingCapDefID": "pathingdef_heavy",
+	"HardpointDataDefID": "hardpointdatadef_331exterminator",
+	"PrefabIdentifier": "chrprfmech_331exterminatorbase-001",
+	"PrefabBase": "331exterminator",
+	"Tonnage": 65,
+	"InitialTonnage": 6.5,
+	"weightClass": "HEAVY",
+	"BattleValue": 6057000,
+	"Heatsinks": 0,
+	"TopSpeed": 120,
+	"TurnRadius": 90,
+	"MaxJumpjets": 30,
+	"Stability": 160,
+	"StabilityDefenses": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"SpotterDistanceMultiplier": 1,
+	"VisibilityMultiplier": 1,
+	"SensorRangeMultiplier": 1,
+	"Signature": 0,
+	"Radius": 8,
+	"PunchesWithLeftArm": false,
+	"MeleeDamage": 75,
+	"MeleeInstability": 35,
+	"MeleeToHitModifier": 0,
+	"DFADamage": 75,
+	"DFAToHitModifier": 0,
+	"DFASelfDamage": 75,
+	"DFAInstability": 35,
+	"Locations": [
+		{
+			"Location": "Head",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 45,
+			"MaxRearArmor": -1,
+			"InternalStructure": 16
+		},
+		{
+			"Location": "LeftArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Missile",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "CenterTorso",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 17,
+			"MaxArmor": 210,
+			"MaxRearArmor": 105,
+			"InternalStructure": 105
+		},
+		{
+			"Location": "RightTorso",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Ballistic",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "AntiPersonnel",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 150,
+			"MaxRearArmor": 75,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightArm",
+			"Hardpoints": [
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				},
+				{
+					"WeaponMountID": "Energy",
+					"Omni": false
+				}
+			],
+			"Tonnage": 0,
+			"InventorySlots": 12,
+			"MaxArmor": 100,
+			"MaxRearArmor": -1,
+			"InternalStructure": 50
+		},
+		{
+			"Location": "LeftLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		},
+		{
+			"Location": "RightLeg",
+			"Hardpoints": [],
+			"Tonnage": 0,
+			"InventorySlots": 6,
+			"MaxArmor": 150,
+			"MaxRearArmor": -1,
+			"InternalStructure": 75
+		}
+	],
+	"LOSSourcePositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		}
+	],
+	"LOSTargetPositions": [
+		{
+			"x": 0,
+			"y": 14,
+			"z": 1
+		},
+		{
+			"x": 4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": -4,
+			"y": 13,
+			"z": 0
+		},
+		{
+			"x": 3,
+			"y": 5,
+			"z": 0
+		},
+		{
+			"x": -3,
+			"y": 5,
+			"z": 0
+		}
+	],
+	"VariantName": "EXT-5W",
+	"ChassisTags": {
+		"items": [
+			"HeavyMech",
+			"ComGuard"
+		],
+		"tagSetSourceFile": ""
+	},
+	"StockRole": "Stealth Assassin",
+	"YangsThoughts": "For the Word of Blake, the Exterminator EXT-5W was a minor upgrade on the already produced EXT-4C.   However with the change from NSS/CLPS to Void Signature system, as well as the inclusion of the highly questionable Endo-Composite structure sourced by means bordering on piracy, the EXT-5W gained some unique benefits, most notable more room to build out its loadout.",
+	"FixedEquipment": [
+		{
+			"MountedLocation": "Head",
+			"ComponentDefID": "Gear_Quirk_ImprovedSensors_Exterminator",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": null,
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_structureslots_endocomposite",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "emod_armorslots_VoidSignature",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftArm",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftTorso",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "CenterTorso",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightTorso",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightArm",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "LeftLeg",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		},
+		{
+			"MountedLocation": "RightLeg",
+			"ComponentDefID": "Linked_VoidSignatureSystem",
+			"SimGameUID": "",
+			"ComponentDefType": "Upgrade",
+			"HardpointSlot": -1,
+			"GUID": null,
+			"DamageLevel": "Functional",
+			"prefabName": "",
+			"hasPrefabName": false
+		}
+	],
+	"CustomParts": {
+		"CustomParts": []
+	}
+}

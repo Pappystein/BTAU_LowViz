@@ -15,7 +15,7 @@
 		"Color": "Gold",
 		"TRGBColor": "#5F24AC",
 		"CriticalEffects": {
-			"LinkedStatisticName": "Void Signature System"
+			"LinkedStatisticName": "Void_Signature_System"
 		},
 		"ErrorMessage": "Void System requires a ECM!",
 		"Flags": [
@@ -23,7 +23,10 @@
 			"not_broken",
 			"no_salvage",
 			"autorepair"
-		]
+		],
+		"CriticalEffects": {
+			"LinkedStatisticName": "VOID System"
+		}
 	},
 	"StatName": null,
 	"RelativeModifier": 0,
