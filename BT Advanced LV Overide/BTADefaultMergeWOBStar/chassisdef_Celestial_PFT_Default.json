@@ -1,0 +1,47 @@
+{
+	"TargetType": "ChassisDef",
+	"TargetIDs": [
+		"chassisdef_archangel_C-ANG-BROADSWORD",
+		"chassisdef_archangel_C-ANG-MUNITUS",
+		"chassisdef_archangel_C-ANG-CONDITUS",
+		"chassisdef_archangel_C-ANG-DEICIO",
+		"chassisdef_archangel_C-ANG-LATERIS",
+		"chassisdef_archangel_C-ANG-RAPTUS",
+		"chassisdef_cherub_C-HRB-O-APOLLYON",
+		"chassisdef_cherub_C-HRB-O-CONDITUS",
+		"chassisdef_cherub_C-HRB-O-DEICIO",
+		"chassisdef_cherub_C-HRB-O-LATERIS",
+		"chassisdef_cherub_C-HRB-O-RAPTUS",
+		"chassisdef_deva_X-DVA-O-CONDITUS",
+		"chassisdef_deva_X-DVA-O-DEICIO",
+		"chassisdef_deva_X-DVA-O-LATERIS",
+		"chassisdef_deva_X-DVA-O-RAPTUS",
+		"chassisdef_grigori_X-GRG-O-CONDITUS",
+		"chassisdef_grigori_X-GRG-O-DEICIO",
+		"chassisdef_grigori_X-GRG-O-LATERIS",
+		"chassisdef_grigori_X-GRG-O-RAPTUS",
+		"chassisdef_malak_C-MK-O-CONDITUS",
+		"chassisdef_malak_C-MK-O-DEICIO",
+		"chassisdef_malak_C-MK-O-LATERIS",
+		"chassisdef_malak_C-MK-O-RAPTUS",
+		"chassisdef_preta_X-PRT-O-CONDITUS",
+		"chassisdef_preta_X-PRT-O-DEICIO",
+		"chassisdef_preta_X-PRT-O-LATERIS",
+		"chassisdef_preta_X-PRT-O-RAPTUS",
+		"chassisdef_preta_X-PRT-O-SIROCCO",
+		"chassisdef_seraph_H-SER-O-CONDITUS",
+		"chassisdef_seraph_H-SER-O-DEICIO",
+		"chassisdef_seraph_H-SER-O-LATERIS",
+		"chassisdef_seraph_H-SER-O-RAPTUS",
+		"chassisdef_yazata_X-YZT-ETERNATUS",
+		"chassisdef_yazata_X-YZT-FUNDATUS",
+		"chassisdef_yazata_X-YZT-EXTREMIS"
+	],
+	"Instructions": [
+		{
+			"JSONPath": "ChassisTags.items[0]",
+			"Action": "ArrayAddBefore",
+			"Value": "Celestial"
+		}
+	]
+}

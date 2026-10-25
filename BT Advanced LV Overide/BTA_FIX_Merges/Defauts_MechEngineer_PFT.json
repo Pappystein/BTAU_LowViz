@@ -142,6 +142,16 @@
 							"Type": "Upgrade"
 						}
 					]
+				},
+				{
+					"UnitType": "Celestial",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsB_WOBStar_Standard",
+							"Type": "Upgrade"
+						}
+					]
 				}
 			]
 		},
@@ -306,6 +316,16 @@
 						{
 							"Location": "Head",
 							"DefID": "Gear_SensorsA_Generic_Pirate",
+							"Type": "Upgrade"
+						}
+					]
+				},
+				{
+					"UnitType": "Celestial",
+					"Defaults": [
+						{
+							"Location": "Head",
+							"DefID": "Gear_SensorsA_Celestial_Standard",
 							"Type": "Upgrade"
 						}
 					]

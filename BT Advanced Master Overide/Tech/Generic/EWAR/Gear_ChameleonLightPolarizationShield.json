@@ -15,9 +15,6 @@
             "not_broken",
 			"no_salvage"
         ],
-		"CriticalEffects": {
-			"LinkedStatisticName": "Chameleon System"
-		},		
         "Linked": {
             "Links": [
                 {
@@ -172,7 +169,7 @@
                     "statisticData": {
                         "statName": "SpottingVisibilityMultiplier",
                         "operation": "Float_Multiply",
-                        "modValue": "0.1",
+                        "modValue": "0.5",
                         "modType": "System.Single"
                     }
                 },

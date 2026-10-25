@@ -1,8 +1,10 @@
 {
 	"Custom": {
-		"Category": [
+		"Category": [{
+				"CategoryID": "CLPS"
+			},
 			{
-				"CategoryID": "Armor"
+				"CategoryID": "NullSig"
 			}
 		],
 		"WorkOrderCosts": {
@@ -45,8 +47,7 @@
 					]
 				}
 			},
-			"statusEffects": [
-				{
+			"statusEffects": [{
 					"durationData": {
 						"duration": -1,
 						"stackLimit": 1
@@ -128,60 +129,57 @@
 						"modType": "System.Single"
 					}
 				},
-				{
-					"durationData": {
-						"duration": -1,
-						"stackLimit": 1
-					},
-					"targetingData": {
-						"effectTriggerType": "Passive",
-						"effectTargetType": "Creator",
-						"showInTargetPreview": false,
-						"showInStatusPanel": true
-					},
-					"effectType": "StatisticEffect",
-					"Description": {
-						"Id": "NullSigSystem-Heat",
-						"Name": "Increased Heat",
-						"Details": "Generates a flat 30 heat a turn while equipped.",
-						"Icon": "invisible"
-					},
-					"nature": "Buff",
-					"statisticData": {
-						"statName": "HeatSinkCapacity",
-						"operation": "Int_Add",
-						"modValue": "-40",
-						"modType": "System.Int32"
-					}
-				}
+		{
+			"durationData": {
+				"duration": -1,
+				"stackLimit": 1
+			},
+			"targetingData": {
+				"effectTriggerType": "Passive",
+				"effectTargetType": "Creator",
+				"showInTargetPreview": false,
+				"showInStatusPanel": true
+			},
+			"effectType": "StatisticEffect",
+			"Description": {
+				"Id": "NullSigSystem-Heat",
+				"Name": "Increased Heat",
+				"Details": "Generates a flat 30 heat a turn while equipped.",
+				"Icon": "invisible"
+			},
+			"nature": "Buff",
+			"statisticData": {
+				"statName": "HeatSinkCapacity",
+				"operation": "Int_Add",
+				"modValue": "-40",
+				"modType": "System.Int32"
+			}
+		}
 			],
 			"offlineStatusEffects": []
 		},
+
 		"Color": "Gold",
 		"CriticalEffects": {
-			"LinkedStatisticName": "Void_Signature_System"
+			"LinkedStatisticName": "Void Signature System"
 		},
 		"ErrorMessage": "Void system requires a ECM!",
 		"Flags": [
 			"not_broken"
 		],
+
 		"Linked": {
-			"Links": [
-				{
-					"ComponentDefId": "Linked_VoidSignatureSystem",
-					"Location": "LeftArm"
-				},
-				{
+			"Links": [{
 					"ComponentDefId": "Linked_VoidSignatureSystem",
 					"Location": "LeftTorso"
 				},
 				{
 					"ComponentDefId": "Linked_VoidSignatureSystem",
-					"Location": "CenterTorso"
+					"Location": "RightTorso"
 				},
 				{
 					"ComponentDefId": "Linked_VoidSignatureSystem",
-					"Location": "RightTorso"
+					"Location": "LeftArm"
 				},
 				{
 					"ComponentDefId": "Linked_VoidSignatureSystem",
